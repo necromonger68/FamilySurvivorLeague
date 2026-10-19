@@ -2,7 +2,7 @@
 
 One pick a week. Two lives. Last one standing wins.
 
-The family's survivor league, run by **Maya Israel** (commissioner, and playing). It starts in **week 7 of the 2026 NFL season**; weeks 1–6 never count.
+The family survivor league, run by **Maya Israel** (commissioner, and playing). It starts in **week 7 of the 2026 NFL season**; weeks 1–6 never count.
 
 ## Running the league (for the commissioner)
 
