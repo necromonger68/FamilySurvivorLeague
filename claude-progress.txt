@@ -45,3 +45,16 @@ BLOCKED: The first commit adds sensitive paths (.github/, infra/, scripts/hooks/
          .claude/settings.json, harden-github.sh) unchanged from the original; commit-msg requires a
          human's SECURITY-REVIEW trailer. infra/template.yaml still lists localhost:5891 Cognito
          callbacks (connected mode is unused; changing infra/ is a human decision).
+
+================================================================
+[2026-10-19] League renamed: Family NFL Survivor League
+Agent: Claude Code / Claude Opus 5.5
+Branch: fix/league-name
+
+DONE   : Renamed "Israel NFL Survivor League" → "Family NFL Survivor League" (many of the family are no
+         longer Israels by name). Maya had already changed README.md and index.html on main; this
+         carries it into the data the site shows (scripts/league.ts → demo-season.json: header,
+         rules page), the fixture test, AGENTS.md and feature_list.json.
+TESTS  : npm run validate green.
+NEXT   : Family roster → scripts/league.ts before the week 7 lock (Thu 2026-10-22 7:10 PM CT).
+BLOCKED: none

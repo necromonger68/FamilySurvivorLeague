@@ -25,7 +25,7 @@ import type { LeagueDefinition } from './league-types'
  * commissioner has supplied it.
  */
 export const LEAGUE: LeagueDefinition = {
-  name: 'Israel NFL Survivor League',
+  name: 'Family NFL Survivor League',
   tagline: 'One pick. Two lives. No mercy for family.',
   createdAt: '2026-10-19T15:00:00.000Z',
   lives: 2,
