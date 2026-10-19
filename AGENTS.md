@@ -2,7 +2,7 @@
 
 > **Read this file first.** It is the single entry point for any AI agent (Claude, Copilot, Cursor, …) working in this repository.
 
-**What this is:** the **Israel NFL Survivor League** — the Israel family's survivor pool. Static React SPA on GitHub Pages (demo mode needs no backend) with an optional AWS serverless backend (connected mode, not used). The people in the league are the stars: headshots everywhere, one pick per week, **two lives**, last one standing wins.
+**What this is:** the **Family NFL Survivor League** — Maya's family's survivor pool. Static React SPA on GitHub Pages (demo mode needs no backend) with an optional AWS serverless backend (connected mode, not used). The people in the league are the stars: headshots everywhere, one pick per week, **two lives**, last one standing wins.
 
 **This league:** commissioner **Maya Israel** (she also plays). Starts in **week 7** of the 2026 NFL season — weeks 1–6 never count. Picks arrive **by text message** to Maya, who relays them to you; you record them. Times are **Central** (`America/Chicago`). The person you are working with is usually Maya, running Claude Code on the web: explain what you changed in plain words, and end with the pull request link for her to merge.
 

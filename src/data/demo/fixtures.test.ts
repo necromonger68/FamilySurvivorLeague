@@ -19,7 +19,7 @@ describe('demo fixture', () => {
   })
 
   it('plays by this league’s rules: two lives, counting from week 7', () => {
-    expect(snapshot.league.name).toBe('Israel NFL Survivor League')
+    expect(snapshot.league.name).toBe('Family NFL Survivor League')
     expect(snapshot.league.settings.defaultLives).toBe(2)
     expect(snapshot.season.startWeek).toBe(7)
     expect(snapshot.season.endWeek).toBe(18)

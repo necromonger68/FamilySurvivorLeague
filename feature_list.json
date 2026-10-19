@@ -426,7 +426,7 @@
   {
     "id": "league-seeded-real-roster",
     "category": "functional",
-    "description": "The league is seeded from scripts/league.ts: the Israel NFL Survivor League, Maya Israel as commissioner (and playing), two lives, counting from week 7 of the 2026 season, and every pick as texted to the commissioner. No results are seeded: they come from the live feed. Nobody loses a life for weeks 1–6. The schedule is the real cached ESPN one.",
+    "description": "The league is seeded from scripts/league.ts: the Family NFL Survivor League, Maya Israel as commissioner (and playing), two lives, counting from week 7 of the 2026 season, and every pick as texted to the commissioner. No results are seeded: they come from the live feed. Nobody loses a life for weeks 1–6. The schedule is the real cached ESPN one.",
     "verification": "npx vitest run src/data/demo/fixtures.test.ts --reporter=dot && jq -e '([.memberships[] | select(.role==\"commissioner\") | .playerId] == [\"maya-israel\"]) and (.league.settings.defaultLives == 2) and (.season.startWeek == 7) and ([.games[] | select(.status==\"final\")] | length) == 0' src/data/demo/fixtures/demo-season.json",
     "priority": 2,
     "hermetic": true,
