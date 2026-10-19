@@ -1,0 +1,13 @@
+{
+  "maya-israel": {
+    "from": "MayaIsrael.jpeg",
+    "contentType": "image/webp",
+    "sizeBytes": 55138,
+    "width": 480,
+    "height": 480,
+    "variants": {
+      "thumb": "headshots/maya-israel-thumb.webp",
+      "medium": "headshots/maya-israel-medium.webp"
+    }
+  }
+}

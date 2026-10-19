@@ -1,0 +1,72 @@
+import { SeasonSnapshotSchema } from '@/domain'
+import type { Services } from '../interfaces'
+import { createDemoAuth } from './auth'
+import { createDemoClock, DEMO_NOW } from './clock'
+import {
+  createDemoImageRepository,
+  createDemoLeagueRepository,
+  createDemoNFLProvider,
+  createDemoPickRepository,
+  createDemoPlayerRepository,
+} from './repositories'
+import { resetDemoStorageIfStale } from './seed'
+import { DemoStore } from './store'
+/**
+ * The league's season (src/data/demo/fixtures/demo-season.json) — or, in a
+ * test build, the made-up test league (test-season.json), so that recording a
+ * real pick never breaks a test. The alias is resolved at build time by
+ * vite.config.ts (DEMO_FIXTURE=test) and vitest.config.ts, so a bundle carries
+ * exactly one of the two (asserted by tests/unit/leagueFixtureAlias.test.ts).
+ */
+import fixture from '@league-fixture'
+
+export interface DemoOptions {
+  storage?: Storage | null
+  assetBase: string
+  /** See Ctx.revealAllPicks in ./repositories. Defaults to off. */
+  revealAllPicks?: boolean
+}
+
+export function createDemoServices(options: DemoOptions): Services {
+  const storage = options.storage === undefined ? safeLocalStorage() : options.storage
+  const snapshot = SeasonSnapshotSchema.parse(fixture)
+  // A reseeded fixture must win over whatever this browser saved last time,
+  // otherwise the app appears not to update no matter how often it restarts.
+  const { sessionPlayerId } = resetDemoStorageIfStale(snapshot, storage)
+  const store = new DemoStore(snapshot, storage, sessionPlayerId)
+  const clock = createDemoClock(storage)
+  const auth = createDemoAuth(store)
+  const viewer = () => {
+    const s = auth.getSession()
+    return { playerId: s?.actor.playerId ?? null, isCommissioner: s?.actor.isCommissioner ?? false }
+  }
+  const ctx = {
+    store,
+    clock,
+    viewer,
+    assetBase: options.assetBase,
+    revealAllPicks: options.revealAllPicks ?? false,
+  }
+  return {
+    mode: 'demo',
+    leagues: createDemoLeagueRepository(ctx),
+    players: createDemoPlayerRepository(ctx),
+    picks: createDemoPickRepository(ctx),
+    nfl: createDemoNFLProvider(ctx),
+    images: createDemoImageRepository(ctx),
+    auth,
+    clock,
+    async resetDemo() {
+      store.reset()
+      clock.set?.(new Date(DEMO_NOW))
+    },
+  }
+}
+
+function safeLocalStorage(): Storage | null {
+  try {
+    return typeof window !== 'undefined' ? window.localStorage : null
+  } catch {
+    return null
+  }
+}

@@ -1,0 +1,47 @@
+claude-progress.txt — Session continuity log
+
+Format for each entry:
+---
+[YYYY-MM-DD] <short session label>
+Agent: <name>/<model-version>
+Branch: <git branch>
+DONE   : <comma-separated completed items>
+TESTS  : <counts before → after>
+NEXT   : <exact next action — file, function, or command>
+BLOCKED: <anything requiring human input, or "none">
+---
+
+================================================================
+[2026-10-19] Israel NFL Survivor League — set up from the original survivor app
+Agent: Claude Code / Claude Opus 5.5
+Branch: feat/initial-league (new repository; fresh history — the original league's history and people are not carried over)
+
+DONE   : Copied the app from the original league's repository (committed files only) and made it
+         this league's: Israel NFL Survivor League, Maya Israel commissioner AND player, TWO lives,
+         counting from WEEK 7 (weeks 1–6 never count), picks arrive BY TEXT, Central time.
+         - scripts/league.ts holds the roster and every pick (the weekly file); scripts/league-types.ts
+           its shape; scripts/generate-demo-fixtures.ts now builds two seasons from it.
+         - Test isolation: a made-up TEST LEAGUE (scripts/test-league.ts — 30 invented people, three
+           lives, weeks 1–6 of picks) is what Playwright and Vitest load, via the @league-fixture alias
+           (vite.config.ts DEMO_FIXTURE=test; vitest.config.ts always). Recording a real pick never
+           breaks a test; no test names a real person. Guarded by tests/unit/leagueFixtureAlias.test.ts.
+         - Notes moved to src/features/league-home/notes.ts with a week 7 welcome note (draft for the
+           commissioner to put her voice on); notes.test.ts checks every callout's lock day/time against
+           the schedule, "text me" and "costs a life". e2e league-message plays the test league forward
+           to the noted week.
+         - Epitaphs emptied (EPITAPHS = {}); epitaphFor takes an injectable map for tests.
+         - Headstones date from the league's first week ("Weeks 7–9"), not week 1.
+         - Rules page: count-neutral wording ("last life eliminates"), new "Counts from: Week 7" fact.
+         - Headshots: only Maya's (from the original league's photo of her); originals stay in photos/.
+         - Ports 5881–5884 so this and the original project run side by side.
+         - Removed the original league's fact tests, epitaphs, notes, photos, crop nudges and names.
+TESTS  : npm run validate green (300 unit/arch/API tests, build); npm run test:e2e 105 passed, 2 skipped
+         (desktop-only footer checks on mobile); bash init.sh → HTTP 200 on :5881; quality-sweep clean
+         (one warning: no GitHub remote yet). Production bundle carries only the real league.
+NEXT   : 1) Commissioner sends the family roster → add to `people` in scripts/league.ts,
+            npm run fixtures:generate. 2) Push to the new GitHub repo, Settings → Pages → GitHub Actions.
+            3) Week 7 picks (lock Thu 2026-10-22 7:10 PM CT, NE at CHI 7:15).
+BLOCKED: The first commit adds sensitive paths (.github/, infra/, scripts/hooks/, scripts/lib/,
+         .claude/settings.json, harden-github.sh) unchanged from the original; commit-msg requires a
+         human's SECURITY-REVIEW trailer. infra/template.yaml still lists localhost:5891 Cognito
+         callbacks (connected mode is unused; changing infra/ is a human decision).

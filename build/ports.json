@@ -1,0 +1,7 @@
+{
+  "_comment": "Distinctive ports so this project never collides with other local apps (Vite's 5173/4173 defaults are shared by everything). 5881–5884, not the original project's 5891–5894, so this league and the one it was copied from can run side by side on one machine. Read by vite.config.ts, playwright.config.ts, init.sh, agent-status.sh and the npm scripts.",
+  "dev": 5881,
+  "pages": 5882,
+  "pagesTest": 5883,
+  "pagesReadOnly": 5884
+}

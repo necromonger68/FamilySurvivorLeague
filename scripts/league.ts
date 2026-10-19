@@ -1,0 +1,45 @@
+import type { LeagueDefinition } from './league-types'
+
+/**
+ * THE LEAGUE — who is in it, and every pick they have sent.
+ *
+ * This is the file that changes each week. The family texts their picks to
+ * Maya, the commissioner; each one is recorded here, then
+ * `npm run fixtures:generate` rebuilds the season the site loads
+ * (src/data/demo/fixtures/demo-season.json).
+ *
+ * Recording a pick:
+ *   - Add it under the player and the week: `7: ['KC', '2026-10-21T23:14:00.000Z']`
+ *     — the team's abbreviation, and when the text arrived, in UTC.
+ *   - The team must have a game that week; the generator refuses one that does
+ *     not, and src/data/demo/fixtures.test.ts refuses a team the player has
+ *     already used, or a pick that arrived after the week locked.
+ *   - A pick that arrives after the lock is not recorded: by then the early
+ *     result may be known. Write `7: null` so the miss is on the record.
+ *
+ * Adding a person: one line in `people`. The id is their name in lower-case
+ * kebab (`aunt-linda`), and it never changes once they have a pick. A photo in
+ * photos/ named after them, then `npm run headshots:import`, gives them a face.
+ *
+ * Nothing here is invented: a person or a pick appears only once the
+ * commissioner has supplied it.
+ */
+export const LEAGUE: LeagueDefinition = {
+  name: 'Israel NFL Survivor League',
+  tagline: 'One pick. Two lives. No mercy for family.',
+  createdAt: '2026-10-19T15:00:00.000Z',
+  lives: 2,
+  // The league starts in the middle of the NFL season: weeks 1–6 never count.
+  startWeek: 7,
+  seasonNotes:
+    'Real roster, picks as texted to the commissioner, and the real NFL schedule. ' +
+    'Results come from the live score feed; the commissioner can always enter or correct one by hand.',
+  people: [
+    // Commissioner: runs the league, writes the notes, and plays.
+    { id: 'maya-israel', name: 'Maya Israel', role: 'commissioner' },
+  ],
+  picks: {},
+  pickSource: () => 'commissioner',
+  useHeadshots: true,
+  seed: 20261022,
+}
