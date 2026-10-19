@@ -1,8 +1,8 @@
-# Israel NFL Survivor League
+# Family NFL Survivor League
 
 One pick a week. Two lives. Last one standing wins.
 
-The Israel family's survivor league, run by **Maya Israel** (commissioner, and playing). It starts in **week 7 of the 2026 NFL season**; weeks 1–6 never count.
+The family's survivor league, run by **Maya Israel** (commissioner, and playing). It starts in **week 7 of the 2026 NFL season**; weeks 1–6 never count.
 
 ## Running the league (for the commissioner)
 
