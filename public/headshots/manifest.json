@@ -43,6 +43,17 @@
       "medium": "headshots/michele-harkov-medium.webp"
     }
   },
+  "robin-herman": {
+    "from": "Robin Herman.jpg",
+    "contentType": "image/webp",
+    "sizeBytes": 96824,
+    "width": 481,
+    "height": 481,
+    "variants": {
+      "thumb": "headshots/robin-herman-thumb.webp",
+      "medium": "headshots/robin-herman-medium.webp"
+    }
+  },
   "steve-harkov": {
     "from": "Steve Harkov.jpg",
     "contentType": "image/webp",
@@ -52,6 +63,17 @@
     "variants": {
       "thumb": "headshots/steve-harkov-thumb.webp",
       "medium": "headshots/steve-harkov-medium.webp"
+    }
+  },
+  "tzvi-herman": {
+    "from": "Tzvi Herman.jpg",
+    "contentType": "image/webp",
+    "sizeBytes": 33206,
+    "width": 462,
+    "height": 462,
+    "variants": {
+      "thumb": "headshots/tzvi-herman-thumb.webp",
+      "medium": "headshots/tzvi-herman-medium.webp"
     }
   }
 }

@@ -191,12 +191,12 @@
     {
       "playerId": "robin-herman",
       "displayName": "Robin Herman",
-      "imageId": null
+      "imageId": "img-robin-herman"
     },
     {
       "playerId": "tzvi-herman",
       "displayName": "Tzvi Herman",
-      "imageId": null
+      "imageId": "img-tzvi-herman"
     }
   ],
   "images": [
@@ -262,6 +262,32 @@
       "variants": {
         "thumb": "headshots/karin-israel-thumb.webp",
         "medium": "headshots/karin-israel-medium.webp"
+      },
+      "createdAt": "2026-10-19T15:00:00.000Z"
+    },
+    {
+      "id": "img-robin-herman",
+      "playerId": "robin-herman",
+      "contentType": "image/webp",
+      "sizeBytes": 96824,
+      "width": 481,
+      "height": 481,
+      "variants": {
+        "thumb": "headshots/robin-herman-thumb.webp",
+        "medium": "headshots/robin-herman-medium.webp"
+      },
+      "createdAt": "2026-10-19T15:00:00.000Z"
+    },
+    {
+      "id": "img-tzvi-herman",
+      "playerId": "tzvi-herman",
+      "contentType": "image/webp",
+      "sizeBytes": 33206,
+      "width": 462,
+      "height": 462,
+      "variants": {
+        "thumb": "headshots/tzvi-herman-thumb.webp",
+        "medium": "headshots/tzvi-herman-medium.webp"
       },
       "createdAt": "2026-10-19T15:00:00.000Z"
     }
