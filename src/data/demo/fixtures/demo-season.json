@@ -36,6 +36,105 @@
       "role": "commissioner",
       "status": "active",
       "joinedAt": "2026-10-19T15:00:00.000Z"
+    },
+    {
+      "id": "m-eden-katz",
+      "leagueId": "demo-league",
+      "seasonId": "demo-2026",
+      "playerId": "eden-katz",
+      "role": "player",
+      "status": "active",
+      "joinedAt": "2026-10-19T15:00:00.000Z"
+    },
+    {
+      "id": "m-steve-harkov",
+      "leagueId": "demo-league",
+      "seasonId": "demo-2026",
+      "playerId": "steve-harkov",
+      "role": "player",
+      "status": "active",
+      "joinedAt": "2026-10-19T15:00:00.000Z"
+    },
+    {
+      "id": "m-michele-harkov",
+      "leagueId": "demo-league",
+      "seasonId": "demo-2026",
+      "playerId": "michele-harkov",
+      "role": "player",
+      "status": "active",
+      "joinedAt": "2026-10-19T15:00:00.000Z"
+    },
+    {
+      "id": "m-jordan-harkov",
+      "leagueId": "demo-league",
+      "seasonId": "demo-2026",
+      "playerId": "jordan-harkov",
+      "role": "player",
+      "status": "active",
+      "joinedAt": "2026-10-19T15:00:00.000Z"
+    },
+    {
+      "id": "m-aaron-harkov",
+      "leagueId": "demo-league",
+      "seasonId": "demo-2026",
+      "playerId": "aaron-harkov",
+      "role": "player",
+      "status": "active",
+      "joinedAt": "2026-10-19T15:00:00.000Z"
+    },
+    {
+      "id": "m-eli-harkov",
+      "leagueId": "demo-league",
+      "seasonId": "demo-2026",
+      "playerId": "eli-harkov",
+      "role": "player",
+      "status": "active",
+      "joinedAt": "2026-10-19T15:00:00.000Z"
+    },
+    {
+      "id": "m-eyal-israel",
+      "leagueId": "demo-league",
+      "seasonId": "demo-2026",
+      "playerId": "eyal-israel",
+      "role": "player",
+      "status": "active",
+      "joinedAt": "2026-10-19T15:00:00.000Z"
+    },
+    {
+      "id": "m-orit-israel",
+      "leagueId": "demo-league",
+      "seasonId": "demo-2026",
+      "playerId": "orit-israel",
+      "role": "player",
+      "status": "active",
+      "joinedAt": "2026-10-19T15:00:00.000Z"
+    },
+    {
+      "id": "m-karin-israel",
+      "leagueId": "demo-league",
+      "seasonId": "demo-2026",
+      "playerId": "karin-israel",
+      "role": "player",
+      "status": "active",
+      "joinedAt": "2026-10-19T15:00:00.000Z"
+    },
+    {
+      "id": "m-robin-herman",
+      "leagueId": "demo-league",
+      "seasonId": "demo-2026",
+      "playerId": "robin-herman",
+      "role": "player",
+      "status": "active",
+      "joinedAt": "2026-10-19T15:00:00.000Z"
+    },
+    {
+      "id": "m-tzvi-herman",
+      "leagueId": "demo-league",
+      "seasonId": "demo-2026",
+      "playerId": "tzvi-herman",
+      "role": "player",
+      "status": "active",
+      "joinedAt": "2026-10-19T15:00:00.000Z"
     }
   ],
   "profiles": [
@@ -43,6 +142,61 @@
       "playerId": "maya-israel",
       "displayName": "Maya Israel",
       "imageId": "img-maya-israel"
+    },
+    {
+      "playerId": "eden-katz",
+      "displayName": "Eden Katz",
+      "imageId": "img-eden-katz"
+    },
+    {
+      "playerId": "steve-harkov",
+      "displayName": "Steve Harkov",
+      "imageId": "img-steve-harkov"
+    },
+    {
+      "playerId": "michele-harkov",
+      "displayName": "Michele Harkov",
+      "imageId": "img-michele-harkov"
+    },
+    {
+      "playerId": "jordan-harkov",
+      "displayName": "Jordan Harkov",
+      "imageId": null
+    },
+    {
+      "playerId": "aaron-harkov",
+      "displayName": "Aaron Harkov",
+      "imageId": null
+    },
+    {
+      "playerId": "eli-harkov",
+      "displayName": "Eli Harkov",
+      "imageId": null
+    },
+    {
+      "playerId": "eyal-israel",
+      "displayName": "Eyal Israel",
+      "imageId": null
+    },
+    {
+      "playerId": "orit-israel",
+      "displayName": "Orit Israel",
+      "imageId": null
+    },
+    {
+      "playerId": "karin-israel",
+      "displayName": "Karin Israel",
+      "imageId": "img-karin-israel"
+    },
+    {
+      "playerId": "robin-herman",
+      "displayName": "Robin Herman",
+      "imageId": null
+    },
+    {
+      "playerId": "tzvi-herman",
+      "displayName": "Tzvi Herman",
+      "imageId": null
     }
   ],
   "images": [
@@ -50,12 +204,64 @@
       "id": "img-maya-israel",
       "playerId": "maya-israel",
       "contentType": "image/webp",
-      "sizeBytes": 55138,
-      "width": 480,
-      "height": 480,
+      "sizeBytes": 55526,
+      "width": 479,
+      "height": 479,
       "variants": {
         "thumb": "headshots/maya-israel-thumb.webp",
         "medium": "headshots/maya-israel-medium.webp"
+      },
+      "createdAt": "2026-10-19T15:00:00.000Z"
+    },
+    {
+      "id": "img-eden-katz",
+      "playerId": "eden-katz",
+      "contentType": "image/webp",
+      "sizeBytes": 40604,
+      "width": 477,
+      "height": 477,
+      "variants": {
+        "thumb": "headshots/eden-katz-thumb.webp",
+        "medium": "headshots/eden-katz-medium.webp"
+      },
+      "createdAt": "2026-10-19T15:00:00.000Z"
+    },
+    {
+      "id": "img-steve-harkov",
+      "playerId": "steve-harkov",
+      "contentType": "image/webp",
+      "sizeBytes": 39982,
+      "width": 479,
+      "height": 479,
+      "variants": {
+        "thumb": "headshots/steve-harkov-thumb.webp",
+        "medium": "headshots/steve-harkov-medium.webp"
+      },
+      "createdAt": "2026-10-19T15:00:00.000Z"
+    },
+    {
+      "id": "img-michele-harkov",
+      "playerId": "michele-harkov",
+      "contentType": "image/webp",
+      "sizeBytes": 73292,
+      "width": 481,
+      "height": 481,
+      "variants": {
+        "thumb": "headshots/michele-harkov-thumb.webp",
+        "medium": "headshots/michele-harkov-medium.webp"
+      },
+      "createdAt": "2026-10-19T15:00:00.000Z"
+    },
+    {
+      "id": "img-karin-israel",
+      "playerId": "karin-israel",
+      "contentType": "image/webp",
+      "sizeBytes": 21516,
+      "width": 481,
+      "height": 481,
+      "variants": {
+        "thumb": "headshots/karin-israel-thumb.webp",
+        "medium": "headshots/karin-israel-medium.webp"
       },
       "createdAt": "2026-10-19T15:00:00.000Z"
     }

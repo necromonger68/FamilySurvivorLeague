@@ -1,13 +1,57 @@
 {
-  "maya-israel": {
-    "from": "MayaIsrael.jpeg",
+  "eden-katz": {
+    "from": "Eden Katz.jpg",
     "contentType": "image/webp",
-    "sizeBytes": 55138,
-    "width": 480,
-    "height": 480,
+    "sizeBytes": 40604,
+    "width": 477,
+    "height": 477,
+    "variants": {
+      "thumb": "headshots/eden-katz-thumb.webp",
+      "medium": "headshots/eden-katz-medium.webp"
+    }
+  },
+  "karin-israel": {
+    "from": "Karin Israel.jpg",
+    "contentType": "image/webp",
+    "sizeBytes": 21516,
+    "width": 481,
+    "height": 481,
+    "variants": {
+      "thumb": "headshots/karin-israel-thumb.webp",
+      "medium": "headshots/karin-israel-medium.webp"
+    }
+  },
+  "maya-israel": {
+    "from": "Maya Israel.jpg",
+    "contentType": "image/webp",
+    "sizeBytes": 55526,
+    "width": 479,
+    "height": 479,
     "variants": {
       "thumb": "headshots/maya-israel-thumb.webp",
       "medium": "headshots/maya-israel-medium.webp"
+    }
+  },
+  "michele-harkov": {
+    "from": "Michele Harkov.jpg",
+    "contentType": "image/webp",
+    "sizeBytes": 73292,
+    "width": 481,
+    "height": 481,
+    "variants": {
+      "thumb": "headshots/michele-harkov-thumb.webp",
+      "medium": "headshots/michele-harkov-medium.webp"
+    }
+  },
+  "steve-harkov": {
+    "from": "Steve Harkov.jpg",
+    "contentType": "image/webp",
+    "sizeBytes": 39982,
+    "width": 479,
+    "height": 479,
+    "variants": {
+      "thumb": "headshots/steve-harkov-thumb.webp",
+      "medium": "headshots/steve-harkov-medium.webp"
     }
   }
 }

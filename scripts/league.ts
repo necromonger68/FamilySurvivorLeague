@@ -37,6 +37,17 @@ export const LEAGUE: LeagueDefinition = {
   people: [
     // Commissioner: runs the league, writes the notes, and plays.
     { id: 'maya-israel', name: 'Maya Israel', role: 'commissioner' },
+    { id: 'eden-katz', name: 'Eden Katz', role: 'player' },
+    { id: 'steve-harkov', name: 'Steve Harkov', role: 'player' },
+    { id: 'michele-harkov', name: 'Michele Harkov', role: 'player' },
+    { id: 'jordan-harkov', name: 'Jordan Harkov', role: 'player' },
+    { id: 'aaron-harkov', name: 'Aaron Harkov', role: 'player' },
+    { id: 'eli-harkov', name: 'Eli Harkov', role: 'player' },
+    { id: 'eyal-israel', name: 'Eyal Israel', role: 'player' },
+    { id: 'orit-israel', name: 'Orit Israel', role: 'player' },
+    { id: 'karin-israel', name: 'Karin Israel', role: 'player' },
+    { id: 'robin-herman', name: 'Robin Herman', role: 'player' },
+    { id: 'tzvi-herman', name: 'Tzvi Herman', role: 'player' },
   ],
   picks: {},
   pickSource: () => 'commissioner',
