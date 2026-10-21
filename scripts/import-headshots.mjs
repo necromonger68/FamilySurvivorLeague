@@ -12,6 +12,10 @@
  * and writes two WebP variants (128px thumb, 512px medium) into
  * public/headshots/, plus a manifest the fixture generator reads.
  *
+ * The manifest is UPDATED, not rebuilt: a player whose original is not in the
+ * folder keeps the headshot already committed, so importing one new photo
+ * never quietly strips everyone else back to the default avatar.
+ *
  * A photo whose automatic crop lands badly can be nudged by hand — see
  * CROP_NUDGES below.
  *
@@ -138,7 +142,42 @@ if (files.length === 0) {
 }
 
 if (!DRY) mkdirSync(OUT, { recursive: true })
-const manifest = {}
+
+/**
+ * The headshots already committed, so a player whose original is not in the
+ * folder keeps the face they have.
+ *
+ * An entry is kept only when it is for someone still on the roster, its
+ * variants are exactly the paths this script writes for that id, and those
+ * files exist. The site loads these paths, so a hand-edited or stale manifest
+ * can never point it outside public/headshots/ or at another player's image.
+ */
+function readExistingManifest() {
+  const file = join(OUT, 'manifest.json')
+  if (!existsSync(file)) return {}
+  let previous
+  try {
+    previous = JSON.parse(readFileSync(file, 'utf8'))
+  } catch {
+    console.error(`${file} is not valid JSON. Fix or delete it, then import again.`)
+    process.exit(1)
+  }
+  const kept = {}
+  for (const { playerId } of roster) {
+    const entry = Object.hasOwn(previous, playerId) ? previous[playerId] : undefined
+    if (!entry || typeof entry !== 'object') continue
+    const intact = Object.keys(VARIANTS).every(
+      (variant) =>
+        entry.variants?.[variant] === `headshots/${playerId}-${variant}.webp` &&
+        existsSync(join(OUT, `${playerId}-${variant}.webp`)),
+    )
+    if (intact) kept[playerId] = entry
+  }
+  return kept
+}
+
+const manifest = readExistingManifest()
+const imported = new Set()
 const problems = []
 let written = 0
 
@@ -154,7 +193,7 @@ for (const file of files) {
     continue
   }
   const { playerId, displayName } = hit.player
-  if (manifest[playerId]) {
+  if (imported.has(playerId)) {
     problems.push(`${file}: ${displayName} already has a photo (${manifest[playerId].from}).`)
     continue
   }
@@ -184,10 +223,17 @@ for (const file of files) {
   let mediumEdge = 0
   for (const [variant, size] of Object.entries(VARIANTS)) {
     const rel = `headshots/${playerId}-${variant}.webp`
+    // The largest square the source can give, capped at the variant size. Asking
+    // sharp for size×size with withoutEnlargement on a smaller original skips
+    // the resize and leaves only the long side cropped: a 477×648 photo came out
+    // 477×512. Min of width and height does not care about EXIF rotation.
+    const edge = square
+      ? Math.min(size, square.width)
+      : Math.min(size, meta.width ?? size, meta.height ?? size)
     // rotate() applies EXIF orientation; attention crop keeps the face in frame;
     // withoutEnlargement avoids faking detail a small original does not have.
     const buf = await (oriented ? sharp(oriented.data).extract(square) : sharp(src).rotate())
-      .resize(size, size, {
+      .resize(edge, edge, {
         fit: 'cover',
         ...(oriented ? {} : { position: sharp.strategy.attention }),
         withoutEnlargement: true,
@@ -198,9 +244,7 @@ for (const file of files) {
     variants[variant] = rel
     if (variant === 'medium') {
       mediumBytes = buf.length
-      mediumEdge = square
-        ? Math.min(size, square.width)
-        : Math.min(size, meta.width ?? size, meta.height ?? size)
+      mediumEdge = edge
     }
   }
   manifest[playerId] = {
@@ -211,6 +255,7 @@ for (const file of files) {
     height: mediumEdge,
     variants,
   }
+  imported.add(playerId)
   written += 1
   const small = mediumEdge < VARIANTS.medium ? `  (source only ${meta.width}x${meta.height})` : ''
   console.log(
@@ -218,14 +263,24 @@ for (const file of files) {
   )
 }
 
+const kept = roster.filter((p) => manifest[p.playerId] && !imported.has(p.playerId))
 const missing = roster.filter((p) => !manifest[p.playerId])
 if (!DRY) {
-  writeFileSync(join(OUT, 'manifest.json'), JSON.stringify(manifest, null, 2) + '\n')
+  // Roster order, so the diff stays put whichever photos were in the folder.
+  const ordered = Object.fromEntries(
+    roster.filter((p) => manifest[p.playerId]).map((p) => [p.playerId, manifest[p.playerId]]),
+  )
+  writeFileSync(join(OUT, 'manifest.json'), JSON.stringify(ordered, null, 2) + '\n')
 }
 
 console.log(
-  `\n${DRY ? '[dry run] ' : ''}${written} of ${roster.length} players have a photo (${files.length} files scanned).`,
+  `\n${DRY ? '[dry run] ' : ''}${written} imported, ${kept.length} kept — ${roster.length - missing.length} of ${roster.length} players have a photo (${files.length} files scanned).`,
 )
+if (kept.length) {
+  console.log(
+    `Kept from the manifest (no original in the folder): ${kept.map((p) => p.displayName).join(', ')}.`,
+  )
+}
 if (missing.length) {
   console.log(
     `No photo for: ${missing.map((p) => p.displayName).join(', ')} — they show the default avatar.`,

@@ -1,19 +1,19 @@
 {
-  "aaron-harkov": {
-    "from": "Aaron Harkov.jpg",
+  "maya-israel": {
+    "from": "Maya Israel.jpg",
     "contentType": "image/webp",
-    "sizeBytes": 30108,
-    "width": 478,
-    "height": 478,
+    "sizeBytes": 51252,
+    "width": 479,
+    "height": 479,
     "variants": {
-      "thumb": "headshots/aaron-harkov-thumb.webp",
-      "medium": "headshots/aaron-harkov-medium.webp"
+      "thumb": "headshots/maya-israel-thumb.webp",
+      "medium": "headshots/maya-israel-medium.webp"
     }
   },
   "eden-katz": {
     "from": "Eden Katz.jpg",
     "contentType": "image/webp",
-    "sizeBytes": 40604,
+    "sizeBytes": 38284,
     "width": 477,
     "height": 477,
     "variants": {
@@ -21,10 +21,54 @@
       "medium": "headshots/eden-katz-medium.webp"
     }
   },
+  "steve-harkov": {
+    "from": "Steve Harkov.jpg",
+    "contentType": "image/webp",
+    "sizeBytes": 38020,
+    "width": 479,
+    "height": 479,
+    "variants": {
+      "thumb": "headshots/steve-harkov-thumb.webp",
+      "medium": "headshots/steve-harkov-medium.webp"
+    }
+  },
+  "michele-harkov": {
+    "from": "Michele Harkov.jpg",
+    "contentType": "image/webp",
+    "sizeBytes": 48754,
+    "width": 512,
+    "height": 512,
+    "variants": {
+      "thumb": "headshots/michele-harkov-thumb.webp",
+      "medium": "headshots/michele-harkov-medium.webp"
+    }
+  },
+  "jordan-harkov": {
+    "from": "Jordan Harkov.jpg",
+    "contentType": "image/webp",
+    "sizeBytes": 25898,
+    "width": 478,
+    "height": 478,
+    "variants": {
+      "thumb": "headshots/jordan-harkov-thumb.webp",
+      "medium": "headshots/jordan-harkov-medium.webp"
+    }
+  },
+  "aaron-harkov": {
+    "from": "Aaron Harkov.jpg",
+    "contentType": "image/webp",
+    "sizeBytes": 28312,
+    "width": 478,
+    "height": 478,
+    "variants": {
+      "thumb": "headshots/aaron-harkov-thumb.webp",
+      "medium": "headshots/aaron-harkov-medium.webp"
+    }
+  },
   "eli-harkov": {
     "from": "Eli Harkov.jpg",
     "contentType": "image/webp",
-    "sizeBytes": 18772,
+    "sizeBytes": 18472,
     "width": 510,
     "height": 510,
     "variants": {
@@ -43,21 +87,21 @@
       "medium": "headshots/eyal-israel-medium.webp"
     }
   },
-  "jordan-harkov": {
-    "from": "Jordan Harkov.jpg",
+  "orit-israel": {
+    "from": "Orit Israel.jpg",
     "contentType": "image/webp",
-    "sizeBytes": 27370,
-    "width": 478,
-    "height": 478,
+    "sizeBytes": 48232,
+    "width": 456,
+    "height": 456,
     "variants": {
-      "thumb": "headshots/jordan-harkov-thumb.webp",
-      "medium": "headshots/jordan-harkov-medium.webp"
+      "thumb": "headshots/orit-israel-thumb.webp",
+      "medium": "headshots/orit-israel-medium.webp"
     }
   },
   "karin-israel": {
     "from": "Karin Israel.jpg",
     "contentType": "image/webp",
-    "sizeBytes": 21516,
+    "sizeBytes": 20028,
     "width": 481,
     "height": 481,
     "variants": {
@@ -65,43 +109,10 @@
       "medium": "headshots/karin-israel-medium.webp"
     }
   },
-  "maya-israel": {
-    "from": "Maya Israel.jpg",
-    "contentType": "image/webp",
-    "sizeBytes": 55526,
-    "width": 479,
-    "height": 479,
-    "variants": {
-      "thumb": "headshots/maya-israel-thumb.webp",
-      "medium": "headshots/maya-israel-medium.webp"
-    }
-  },
-  "michele-harkov": {
-    "from": "Michele Harkov.jpg",
-    "contentType": "image/webp",
-    "sizeBytes": 73292,
-    "width": 481,
-    "height": 481,
-    "variants": {
-      "thumb": "headshots/michele-harkov-thumb.webp",
-      "medium": "headshots/michele-harkov-medium.webp"
-    }
-  },
-  "orit-israel": {
-    "from": "Orit Israel.jpg",
-    "contentType": "image/webp",
-    "sizeBytes": 78676,
-    "width": 512,
-    "height": 512,
-    "variants": {
-      "thumb": "headshots/orit-israel-thumb.webp",
-      "medium": "headshots/orit-israel-medium.webp"
-    }
-  },
   "robin-herman": {
     "from": "Robin Herman.jpg",
     "contentType": "image/webp",
-    "sizeBytes": 96824,
+    "sizeBytes": 90388,
     "width": 481,
     "height": 481,
     "variants": {
@@ -109,21 +120,10 @@
       "medium": "headshots/robin-herman-medium.webp"
     }
   },
-  "steve-harkov": {
-    "from": "Steve Harkov.jpg",
-    "contentType": "image/webp",
-    "sizeBytes": 39982,
-    "width": 479,
-    "height": 479,
-    "variants": {
-      "thumb": "headshots/steve-harkov-thumb.webp",
-      "medium": "headshots/steve-harkov-medium.webp"
-    }
-  },
   "tzvi-herman": {
     "from": "Tzvi Herman.jpg",
     "contentType": "image/webp",
-    "sizeBytes": 33206,
+    "sizeBytes": 31796,
     "width": 462,
     "height": 462,
     "variants": {
