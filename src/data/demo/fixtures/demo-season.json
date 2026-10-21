@@ -204,7 +204,7 @@
       "id": "img-maya-israel",
       "playerId": "maya-israel",
       "contentType": "image/webp",
-      "sizeBytes": 55526,
+      "sizeBytes": 51252,
       "width": 479,
       "height": 479,
       "variants": {
@@ -217,7 +217,7 @@
       "id": "img-eden-katz",
       "playerId": "eden-katz",
       "contentType": "image/webp",
-      "sizeBytes": 40604,
+      "sizeBytes": 38284,
       "width": 477,
       "height": 477,
       "variants": {
@@ -230,7 +230,7 @@
       "id": "img-steve-harkov",
       "playerId": "steve-harkov",
       "contentType": "image/webp",
-      "sizeBytes": 39982,
+      "sizeBytes": 38020,
       "width": 479,
       "height": 479,
       "variants": {
@@ -243,9 +243,9 @@
       "id": "img-michele-harkov",
       "playerId": "michele-harkov",
       "contentType": "image/webp",
-      "sizeBytes": 73292,
-      "width": 481,
-      "height": 481,
+      "sizeBytes": 20514,
+      "width": 319,
+      "height": 319,
       "variants": {
         "thumb": "headshots/michele-harkov-thumb.webp",
         "medium": "headshots/michele-harkov-medium.webp"
@@ -256,7 +256,7 @@
       "id": "img-jordan-harkov",
       "playerId": "jordan-harkov",
       "contentType": "image/webp",
-      "sizeBytes": 27370,
+      "sizeBytes": 25898,
       "width": 478,
       "height": 478,
       "variants": {
@@ -269,7 +269,7 @@
       "id": "img-aaron-harkov",
       "playerId": "aaron-harkov",
       "contentType": "image/webp",
-      "sizeBytes": 30108,
+      "sizeBytes": 28312,
       "width": 478,
       "height": 478,
       "variants": {
@@ -282,7 +282,7 @@
       "id": "img-eli-harkov",
       "playerId": "eli-harkov",
       "contentType": "image/webp",
-      "sizeBytes": 18772,
+      "sizeBytes": 18472,
       "width": 510,
       "height": 510,
       "variants": {
@@ -308,9 +308,9 @@
       "id": "img-orit-israel",
       "playerId": "orit-israel",
       "contentType": "image/webp",
-      "sizeBytes": 78676,
-      "width": 512,
-      "height": 512,
+      "sizeBytes": 24516,
+      "width": 267,
+      "height": 267,
       "variants": {
         "thumb": "headshots/orit-israel-thumb.webp",
         "medium": "headshots/orit-israel-medium.webp"
@@ -321,7 +321,7 @@
       "id": "img-karin-israel",
       "playerId": "karin-israel",
       "contentType": "image/webp",
-      "sizeBytes": 21516,
+      "sizeBytes": 20028,
       "width": 481,
       "height": 481,
       "variants": {
@@ -334,7 +334,7 @@
       "id": "img-robin-herman",
       "playerId": "robin-herman",
       "contentType": "image/webp",
-      "sizeBytes": 96824,
+      "sizeBytes": 90388,
       "width": 481,
       "height": 481,
       "variants": {
@@ -347,7 +347,7 @@
       "id": "img-tzvi-herman",
       "playerId": "tzvi-herman",
       "contentType": "image/webp",
-      "sizeBytes": 33206,
+      "sizeBytes": 31796,
       "width": 462,
       "height": 462,
       "variants": {
