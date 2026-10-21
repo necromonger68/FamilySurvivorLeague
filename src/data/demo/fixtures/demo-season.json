@@ -243,9 +243,9 @@
       "id": "img-michele-harkov",
       "playerId": "michele-harkov",
       "contentType": "image/webp",
-      "sizeBytes": 20514,
-      "width": 319,
-      "height": 319,
+      "sizeBytes": 48754,
+      "width": 512,
+      "height": 512,
       "variants": {
         "thumb": "headshots/michele-harkov-thumb.webp",
         "medium": "headshots/michele-harkov-medium.webp"
@@ -308,9 +308,9 @@
       "id": "img-orit-israel",
       "playerId": "orit-israel",
       "contentType": "image/webp",
-      "sizeBytes": 24516,
-      "width": 267,
-      "height": 267,
+      "sizeBytes": 48232,
+      "width": 456,
+      "height": 456,
       "variants": {
         "thumb": "headshots/orit-israel-thumb.webp",
         "medium": "headshots/orit-israel-medium.webp"
