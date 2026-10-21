@@ -161,27 +161,27 @@
     {
       "playerId": "jordan-harkov",
       "displayName": "Jordan Harkov",
-      "imageId": null
+      "imageId": "img-jordan-harkov"
     },
     {
       "playerId": "aaron-harkov",
       "displayName": "Aaron Harkov",
-      "imageId": null
+      "imageId": "img-aaron-harkov"
     },
     {
       "playerId": "eli-harkov",
       "displayName": "Eli Harkov",
-      "imageId": null
+      "imageId": "img-eli-harkov"
     },
     {
       "playerId": "eyal-israel",
       "displayName": "Eyal Israel",
-      "imageId": null
+      "imageId": "img-eyal-israel"
     },
     {
       "playerId": "orit-israel",
       "displayName": "Orit Israel",
-      "imageId": null
+      "imageId": "img-orit-israel"
     },
     {
       "playerId": "karin-israel",
@@ -249,6 +249,71 @@
       "variants": {
         "thumb": "headshots/michele-harkov-thumb.webp",
         "medium": "headshots/michele-harkov-medium.webp"
+      },
+      "createdAt": "2026-10-19T15:00:00.000Z"
+    },
+    {
+      "id": "img-jordan-harkov",
+      "playerId": "jordan-harkov",
+      "contentType": "image/webp",
+      "sizeBytes": 27370,
+      "width": 478,
+      "height": 478,
+      "variants": {
+        "thumb": "headshots/jordan-harkov-thumb.webp",
+        "medium": "headshots/jordan-harkov-medium.webp"
+      },
+      "createdAt": "2026-10-19T15:00:00.000Z"
+    },
+    {
+      "id": "img-aaron-harkov",
+      "playerId": "aaron-harkov",
+      "contentType": "image/webp",
+      "sizeBytes": 30108,
+      "width": 478,
+      "height": 478,
+      "variants": {
+        "thumb": "headshots/aaron-harkov-thumb.webp",
+        "medium": "headshots/aaron-harkov-medium.webp"
+      },
+      "createdAt": "2026-10-19T15:00:00.000Z"
+    },
+    {
+      "id": "img-eli-harkov",
+      "playerId": "eli-harkov",
+      "contentType": "image/webp",
+      "sizeBytes": 18772,
+      "width": 510,
+      "height": 510,
+      "variants": {
+        "thumb": "headshots/eli-harkov-thumb.webp",
+        "medium": "headshots/eli-harkov-medium.webp"
+      },
+      "createdAt": "2026-10-19T15:00:00.000Z"
+    },
+    {
+      "id": "img-eyal-israel",
+      "playerId": "eyal-israel",
+      "contentType": "image/webp",
+      "sizeBytes": 73756,
+      "width": 512,
+      "height": 512,
+      "variants": {
+        "thumb": "headshots/eyal-israel-thumb.webp",
+        "medium": "headshots/eyal-israel-medium.webp"
+      },
+      "createdAt": "2026-10-19T15:00:00.000Z"
+    },
+    {
+      "id": "img-orit-israel",
+      "playerId": "orit-israel",
+      "contentType": "image/webp",
+      "sizeBytes": 78676,
+      "width": 512,
+      "height": 512,
+      "variants": {
+        "thumb": "headshots/orit-israel-thumb.webp",
+        "medium": "headshots/orit-israel-medium.webp"
       },
       "createdAt": "2026-10-19T15:00:00.000Z"
     },
