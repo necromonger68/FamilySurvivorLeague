@@ -23,19 +23,24 @@ export interface LeagueNote {
   callout?: string
 }
 
-const WEEK_7_WELCOME: LeagueNote = {
+/**
+ * Week 7, after the lock. It names every pick, so it replaced the welcome note
+ * (and its "text me before 7:10" callout) only once the week had locked.
+ */
+const WEEK_7_PICKS: LeagueNote = {
   heading: 'Word from the commissioner',
   lines: [
-    'Welcome to the league. Every week you pick one NFL team to win. You can never use the same team twice. That is the whole game, and it will still find a way to hurt you.',
-    'You get two lives. Not three — two. Your team loses, it costs a life. Your team ties, it costs a life. You forget to text me, it costs a life. Lose both and you get a headstone on this page and a eulogy written by me, which should scare you more than anything the NFL can do.',
-    'A word from experience: in the other league I play in, twenty-one people picked Dallas in the same week, and all twenty-one lost a life to a Tampa Bay team that had not won a game all season. I was one of the twenty-one. Dallas plays at Philadelphia on Monday night this week. Do with that what you will.',
-    'Week 7: Buffalo, Jacksonville, Washington and the Chargers are on bye, so they cannot be picked. Pittsburgh at New Orleans kicks off at 8:30 Sunday morning our time, for anyone who likes their heartbreak with breakfast. Kansas City is at Seattle on Sunday night.',
-    'Everybody’s pick stays hidden until the lock, then they all show up here at once. No peeking, no copying, no “what did you take?” at dinner.',
+    'The picks are in, and the crow that lives at the top of this page has started taking notes. He doesn’t say much. He doesn’t need to. He just looked at the Steelers line and tilted his head.',
+    'Let’s start with the Harkovs. Michele, Steve, Jordan and Eli: four Harkovs, one team, one 8:30 Sunday morning kickoff in New Orleans. A third of this league is riding on a breakfast game. Aaron looked at the family plan, said “no thank you,” and took the Jets. Aaron, either you know something or the group chat is about to get very quiet.',
+    'Now, Eden. Eden is a Bears fan. Everybody knows Eden is a Bears fan. And yet, with a life on the line, Eden picked the 49ers, the home team of Aunt Michele, Uncle Steve, and cousins Jordan, Aaron and Eli. A lovely gesture, except not one of those five picked the 49ers themselves. Eden is backing the Harkovs’ team harder than the Harkovs are. Somebody in that house owes Eden dinner.',
+    'Then there’s Orit, who married my brother Eyal. Eyal bleeds navy and orange. Orit picked the Patriots. To beat the Bears. Tonight. In Chicago. In the first game of the week, so the whole house finds out before dessert. And Eyal, the die-hard? He took the Panthers. So nobody in that marriage trusted Chicago this week, but only one of them will be openly cheering against it from the couch. The crow respects it. He has also asked whether Orit has somewhere else to sleep tonight.',
+    'Everyone else: Karin on the Vikings, Robin on the Browns, Tzvi on the Broncos, and your commissioner on the Texans. Twelve players, nine teams, and not a single one of you picked the Bears, including both Bears fans. Chicago, I’m sorry. Even your own people are on the run.',
+    'Remember, you have two lives. Lose one this week and you’re still in it, just with a worse seat and a crow watching you a little more closely.',
   ],
   callout:
-    'Text me your week 7 pick before 7:10 PM Thursday — five minutes before New England at Chicago kicks off. Every pick locks then, even if your game is on Sunday. No pick costs a life, and you only have two.',
+    'Your week 7 pick locked at 7:10 PM Thursday, so it’s out of your hands now. Next week works the same way: text me your pick before the lock, and a missed pick still costs a life.',
 }
 
 export const NOTES: Record<number, LeagueNote> = {
-  7: WEEK_7_WELCOME,
+  7: WEEK_7_PICKS,
 }
