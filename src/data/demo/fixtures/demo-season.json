@@ -448,6 +448,71 @@
       "updatedAt": "2026-10-22T20:39:00.000Z",
       "version": 1,
       "source": "commissioner"
+    },
+    {
+      "id": "pick-michele-harkov-7",
+      "leagueId": "demo-league",
+      "seasonId": "demo-2026",
+      "playerId": "michele-harkov",
+      "week": 7,
+      "teamId": "PIT",
+      "gameId": "2026-w07-PIT-at-NO",
+      "submittedAt": "2026-10-22T21:00:00.000Z",
+      "updatedAt": "2026-10-22T21:00:00.000Z",
+      "version": 1,
+      "source": "commissioner"
+    },
+    {
+      "id": "pick-orit-israel-7",
+      "leagueId": "demo-league",
+      "seasonId": "demo-2026",
+      "playerId": "orit-israel",
+      "week": 7,
+      "teamId": "NE",
+      "gameId": "2026-w07-NE-at-CHI",
+      "submittedAt": "2026-10-22T21:54:00.000Z",
+      "updatedAt": "2026-10-22T21:54:00.000Z",
+      "version": 1,
+      "source": "commissioner"
+    },
+    {
+      "id": "pick-eli-harkov-7",
+      "leagueId": "demo-league",
+      "seasonId": "demo-2026",
+      "playerId": "eli-harkov",
+      "week": 7,
+      "teamId": "PIT",
+      "gameId": "2026-w07-PIT-at-NO",
+      "submittedAt": "2026-10-22T22:59:00.000Z",
+      "updatedAt": "2026-10-22T22:59:00.000Z",
+      "version": 1,
+      "source": "commissioner"
+    },
+    {
+      "id": "pick-jordan-harkov-7",
+      "leagueId": "demo-league",
+      "seasonId": "demo-2026",
+      "playerId": "jordan-harkov",
+      "week": 7,
+      "teamId": "PIT",
+      "gameId": "2026-w07-PIT-at-NO",
+      "submittedAt": "2026-10-22T22:59:00.000Z",
+      "updatedAt": "2026-10-22T22:59:00.000Z",
+      "version": 1,
+      "source": "commissioner"
+    },
+    {
+      "id": "pick-eden-katz-7",
+      "leagueId": "demo-league",
+      "seasonId": "demo-2026",
+      "playerId": "eden-katz",
+      "week": 7,
+      "teamId": "SF",
+      "gameId": "2026-w07-SF-at-ATL",
+      "submittedAt": "2026-10-22T23:02:00.000Z",
+      "updatedAt": "2026-10-22T23:02:00.000Z",
+      "version": 1,
+      "source": "commissioner"
     }
   ],
   "games": [
