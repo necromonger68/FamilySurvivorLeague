@@ -55,6 +55,8 @@ export const LEAGUE: LeagueDefinition = {
     'steve-harkov': { 7: ['PIT', '2026-10-21T16:47:00.000Z'] },
     'eyal-israel': { 7: ['CAR', '2026-10-21T18:07:00.000Z'] },
     'aaron-harkov': { 7: ['NYJ', '2026-10-22T19:07:00.000Z'] },
+    'robin-herman': { 7: ['CLE', '2026-10-22T19:48:00.000Z'] },
+    'tzvi-herman': { 7: ['DEN', '2026-10-22T20:39:00.000Z'] },
   },
   pickSource: () => 'commissioner',
   useHeadshots: true,
