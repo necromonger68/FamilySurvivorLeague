@@ -422,6 +422,32 @@
       "updatedAt": "2026-10-22T19:07:00.000Z",
       "version": 1,
       "source": "commissioner"
+    },
+    {
+      "id": "pick-robin-herman-7",
+      "leagueId": "demo-league",
+      "seasonId": "demo-2026",
+      "playerId": "robin-herman",
+      "week": 7,
+      "teamId": "CLE",
+      "gameId": "2026-w07-CLE-at-TEN",
+      "submittedAt": "2026-10-22T19:48:00.000Z",
+      "updatedAt": "2026-10-22T19:48:00.000Z",
+      "version": 1,
+      "source": "commissioner"
+    },
+    {
+      "id": "pick-tzvi-herman-7",
+      "leagueId": "demo-league",
+      "seasonId": "demo-2026",
+      "playerId": "tzvi-herman",
+      "week": 7,
+      "teamId": "DEN",
+      "gameId": "2026-w07-DEN-at-ARI",
+      "submittedAt": "2026-10-22T20:39:00.000Z",
+      "updatedAt": "2026-10-22T20:39:00.000Z",
+      "version": 1,
+      "source": "commissioner"
     }
   ],
   "games": [
