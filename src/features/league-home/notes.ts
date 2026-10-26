@@ -41,6 +41,29 @@ const WEEK_7_PICKS: LeagueNote = {
     'Your week 7 pick locked at 7:10 PM Thursday, so it’s out of your hands now. Next week works the same way: text me your pick before the lock, and a missed pick still costs a life.',
 }
 
+/**
+ * Week 8: the week 7 recap plus what week 8 holds. Shows once every week 7
+ * game is final. Scores and records checked against the ESPN scoreboard; it
+ * names no week 8 picks.
+ */
+const WEEK_8: LeagueNote = {
+  heading: 'Word from the commissioner',
+  lines: [
+    'Last week I said the crow had started taking notes. This week he needed a second notebook. Five of you lost a life, and I’m one of them, so I’ll go first. I took Houston at home against the Giants. The Texans dragged it to overtime, which was just long enough for me to start writing this paragraph as a victory lap, and then the Giants ran it in from thirty yards and won 27–21. The same Texans knocked me out of my other league that same afternoon. Two leagues, one team, one very long Sunday.',
+    'Then there’s the HP Israel household. On Thursday night, Orit’s Patriots went to Chicago to beat Eyal’s Bears, and the Bears won 30–24. So my brother got to watch his team win and his wife lose a life in the same game. On Sunday the universe evened things out: the die-hard, who still didn’t pick his own Bears, took Carolina instead, and Carolina turned it over four times and lost 43–13 to Tampa Bay. Both parents lost a life. Their girls did not. More on that below.',
+    'Eden backed the Harkovs’ 49ers, who had not lost a game all season. They lost their first one in Atlanta, 29–20, with four turnovers. So Eden lost a life on the Harkovs’ team, and the Harkovs didn’t, because the Harkovs were on the Steelers. I’m told dinner is still owed.',
+    'Aaron, the one Harkov who said no to the family plan, took the Jets at home against a Miami team that had not won a game all season. Miami won 28–25. The Jets made a late run, which only made it worse. The group chat has been quiet, as predicted.',
+    'The official count: five of you lost a life. Maya with Houston, Orit with New England, Eyal with Carolina, Eden with San Francisco, Aaron with the Jets. Nobody is out, because this league gives you two lives for exactly this kind of week. But five of you are already on your last one.',
+    'The seven still on two lives. My sister Michele, Steve, Jordan and Eli went to breakfast in Paris (the Steelers game was the NFL’s first regular-season game in France) and came home with a 16–10 win. And while their parents went down, Karin and Robin carried the HP Israel name: Karin’s Vikings ground out a 16–10 win over Indianapolis and are now 6–0, the only unbeaten team left in football, and Robin’s Browns needed another game-winning drive to get past Tennessee 27–24. Robin’s husband Tzvi made it a clean sweep, with Denver winning 30–16 in Arizona and a 62-yard touchdown run from their quarterback thrown in.',
+    'Nobody picked Dallas at Philadelphia, so the week was settled before Monday night. The crow has the night off.',
+    'Week 8: Houston, New Orleans, the Giants and San Francisco are on bye. Thursday night is Carolina at Green Bay, which locks the week. The Vikings, 6–0, go to Detroit, and Karin can’t use them again. Cleveland plays at Pittsburgh, which makes it Robin against her Aunt Michele’s family, except Robin has already used the Browns and four of the Harkovs have already used the Steelers. And the Bears, the team more than half the family loves and none of you picked, play at Seattle on Monday night. Nobody has used them yet. Just saying.',
+    'Remember, you have two lives. Five of you have spent one. Choose accordingly.',
+  ],
+  callout:
+    'Text me your week 8 pick before 7:10 PM Thursday, five minutes before Carolina at Green Bay kicks off. Five of you are on your last life, and a missed pick costs a life like any other.',
+}
+
 export const NOTES: Record<number, LeagueNote> = {
   7: WEEK_7_PICKS,
+  8: WEEK_8,
 }
