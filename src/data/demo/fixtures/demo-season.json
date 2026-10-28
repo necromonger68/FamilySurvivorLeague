@@ -372,6 +372,19 @@
       "source": "commissioner"
     },
     {
+      "id": "pick-karin-israel-8",
+      "leagueId": "demo-league",
+      "seasonId": "demo-2026",
+      "playerId": "karin-israel",
+      "week": 8,
+      "teamId": "NE",
+      "gameId": "2026-w08-NE-at-MIA",
+      "submittedAt": "2026-10-28T22:15:00.000Z",
+      "updatedAt": "2026-10-28T22:15:00.000Z",
+      "version": 1,
+      "source": "commissioner"
+    },
+    {
       "id": "pick-maya-israel-7",
       "leagueId": "demo-league",
       "seasonId": "demo-2026",
@@ -385,6 +398,19 @@
       "source": "commissioner"
     },
     {
+      "id": "pick-maya-israel-8",
+      "leagueId": "demo-league",
+      "seasonId": "demo-2026",
+      "playerId": "maya-israel",
+      "week": 8,
+      "teamId": "CIN",
+      "gameId": "2026-w08-TEN-at-CIN",
+      "submittedAt": "2026-10-28T12:46:00.000Z",
+      "updatedAt": "2026-10-28T12:46:00.000Z",
+      "version": 1,
+      "source": "commissioner"
+    },
+    {
       "id": "pick-steve-harkov-7",
       "leagueId": "demo-league",
       "seasonId": "demo-2026",
@@ -394,6 +420,19 @@
       "gameId": "2026-w07-PIT-at-NO",
       "submittedAt": "2026-10-21T16:47:00.000Z",
       "updatedAt": "2026-10-21T16:47:00.000Z",
+      "version": 1,
+      "source": "commissioner"
+    },
+    {
+      "id": "pick-steve-harkov-8",
+      "leagueId": "demo-league",
+      "seasonId": "demo-2026",
+      "playerId": "steve-harkov",
+      "week": 8,
+      "teamId": "CIN",
+      "gameId": "2026-w08-TEN-at-CIN",
+      "submittedAt": "2026-10-28T12:46:00.000Z",
+      "updatedAt": "2026-10-28T12:46:00.000Z",
       "version": 1,
       "source": "commissioner"
     },
@@ -433,6 +472,19 @@
       "gameId": "2026-w07-CLE-at-TEN",
       "submittedAt": "2026-10-22T19:48:00.000Z",
       "updatedAt": "2026-10-22T19:48:00.000Z",
+      "version": 1,
+      "source": "commissioner"
+    },
+    {
+      "id": "pick-robin-herman-8",
+      "leagueId": "demo-league",
+      "seasonId": "demo-2026",
+      "playerId": "robin-herman",
+      "week": 8,
+      "teamId": "CIN",
+      "gameId": "2026-w08-TEN-at-CIN",
+      "submittedAt": "2026-10-28T22:15:00.000Z",
+      "updatedAt": "2026-10-28T22:15:00.000Z",
       "version": 1,
       "source": "commissioner"
     },
