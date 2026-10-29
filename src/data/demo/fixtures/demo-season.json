@@ -476,6 +476,19 @@
       "source": "commissioner"
     },
     {
+      "id": "pick-aaron-harkov-8",
+      "leagueId": "demo-league",
+      "seasonId": "demo-2026",
+      "playerId": "aaron-harkov",
+      "week": 8,
+      "teamId": "BUF",
+      "gameId": "2026-w08-BAL-at-BUF",
+      "submittedAt": "2026-10-29T18:35:00.000Z",
+      "updatedAt": "2026-10-29T18:35:00.000Z",
+      "version": 1,
+      "source": "commissioner"
+    },
+    {
       "id": "pick-robin-herman-7",
       "leagueId": "demo-league",
       "seasonId": "demo-2026",
@@ -541,6 +554,19 @@
       "source": "commissioner"
     },
     {
+      "id": "pick-michele-harkov-8",
+      "leagueId": "demo-league",
+      "seasonId": "demo-2026",
+      "playerId": "michele-harkov",
+      "week": 8,
+      "teamId": "CIN",
+      "gameId": "2026-w08-TEN-at-CIN",
+      "submittedAt": "2026-10-29T18:35:00.000Z",
+      "updatedAt": "2026-10-29T18:35:00.000Z",
+      "version": 1,
+      "source": "commissioner"
+    },
+    {
       "id": "pick-orit-israel-7",
       "leagueId": "demo-league",
       "seasonId": "demo-2026",
@@ -554,6 +580,19 @@
       "source": "commissioner"
     },
     {
+      "id": "pick-orit-israel-8",
+      "leagueId": "demo-league",
+      "seasonId": "demo-2026",
+      "playerId": "orit-israel",
+      "week": 8,
+      "teamId": "CIN",
+      "gameId": "2026-w08-TEN-at-CIN",
+      "submittedAt": "2026-10-29T23:16:00.000Z",
+      "updatedAt": "2026-10-29T23:16:00.000Z",
+      "version": 1,
+      "source": "commissioner"
+    },
+    {
       "id": "pick-eli-harkov-7",
       "leagueId": "demo-league",
       "seasonId": "demo-2026",
@@ -563,6 +602,19 @@
       "gameId": "2026-w07-PIT-at-NO",
       "submittedAt": "2026-10-22T22:59:00.000Z",
       "updatedAt": "2026-10-22T22:59:00.000Z",
+      "version": 1,
+      "source": "commissioner"
+    },
+    {
+      "id": "pick-eli-harkov-8",
+      "leagueId": "demo-league",
+      "seasonId": "demo-2026",
+      "playerId": "eli-harkov",
+      "week": 8,
+      "teamId": "GB",
+      "gameId": "2026-w08-CAR-at-GB",
+      "submittedAt": "2026-10-29T22:13:00.000Z",
+      "updatedAt": "2026-10-29T22:13:00.000Z",
       "version": 1,
       "source": "commissioner"
     },
