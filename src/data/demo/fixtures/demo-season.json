@@ -502,6 +502,19 @@
       "source": "commissioner"
     },
     {
+      "id": "pick-eyal-israel-9",
+      "leagueId": "demo-league",
+      "seasonId": "demo-2026",
+      "playerId": "eyal-israel",
+      "week": 9,
+      "teamId": "DET",
+      "gameId": "2026-w09-DET-at-MIA",
+      "submittedAt": "2026-11-05T16:46:00.000Z",
+      "updatedAt": "2026-11-05T16:46:00.000Z",
+      "version": 1,
+      "source": "commissioner"
+    },
+    {
       "id": "pick-aaron-harkov-7",
       "leagueId": "demo-league",
       "seasonId": "demo-2026",
@@ -554,6 +567,19 @@
       "source": "commissioner"
     },
     {
+      "id": "pick-robin-herman-9",
+      "leagueId": "demo-league",
+      "seasonId": "demo-2026",
+      "playerId": "robin-herman",
+      "week": 9,
+      "teamId": "JAX",
+      "gameId": "2026-w09-JAX-at-BAL",
+      "submittedAt": "2026-11-05T17:15:00.000Z",
+      "updatedAt": "2026-11-05T17:15:00.000Z",
+      "version": 1,
+      "source": "commissioner"
+    },
+    {
       "id": "pick-tzvi-herman-7",
       "leagueId": "demo-league",
       "seasonId": "demo-2026",
@@ -580,6 +606,19 @@
       "source": "commissioner"
     },
     {
+      "id": "pick-tzvi-herman-9",
+      "leagueId": "demo-league",
+      "seasonId": "demo-2026",
+      "playerId": "tzvi-herman",
+      "week": 9,
+      "teamId": "DAL",
+      "gameId": "2026-w09-DAL-at-IND",
+      "submittedAt": "2026-11-05T17:15:00.000Z",
+      "updatedAt": "2026-11-05T17:15:00.000Z",
+      "version": 1,
+      "source": "commissioner"
+    },
+    {
       "id": "pick-michele-harkov-7",
       "leagueId": "demo-league",
       "seasonId": "demo-2026",
@@ -602,6 +641,19 @@
       "gameId": "2026-w08-TEN-at-CIN",
       "submittedAt": "2026-10-29T18:35:00.000Z",
       "updatedAt": "2026-10-29T18:35:00.000Z",
+      "version": 1,
+      "source": "commissioner"
+    },
+    {
+      "id": "pick-michele-harkov-9",
+      "leagueId": "demo-league",
+      "seasonId": "demo-2026",
+      "playerId": "michele-harkov",
+      "week": 9,
+      "teamId": "SF",
+      "gameId": "2026-w09-LV-at-SF",
+      "submittedAt": "2026-11-05T16:46:00.000Z",
+      "updatedAt": "2026-11-05T16:46:00.000Z",
       "version": 1,
       "source": "commissioner"
     },
@@ -654,6 +706,19 @@
       "gameId": "2026-w08-CAR-at-GB",
       "submittedAt": "2026-10-29T22:13:00.000Z",
       "updatedAt": "2026-10-29T22:13:00.000Z",
+      "version": 1,
+      "source": "commissioner"
+    },
+    {
+      "id": "pick-eli-harkov-9",
+      "leagueId": "demo-league",
+      "seasonId": "demo-2026",
+      "playerId": "eli-harkov",
+      "week": 9,
+      "teamId": "SF",
+      "gameId": "2026-w09-LV-at-SF",
+      "submittedAt": "2026-11-05T16:51:00.000Z",
+      "updatedAt": "2026-11-05T16:51:00.000Z",
       "version": 1,
       "source": "commissioner"
     },
