@@ -385,6 +385,19 @@
       "source": "commissioner"
     },
     {
+      "id": "pick-karin-israel-9",
+      "leagueId": "demo-league",
+      "seasonId": "demo-2026",
+      "playerId": "karin-israel",
+      "week": 9,
+      "teamId": "LAR",
+      "gameId": "2026-w09-LAR-at-WAS",
+      "submittedAt": "2026-11-05T14:21:00.000Z",
+      "updatedAt": "2026-11-05T14:21:00.000Z",
+      "version": 1,
+      "source": "commissioner"
+    },
+    {
       "id": "pick-maya-israel-7",
       "leagueId": "demo-league",
       "seasonId": "demo-2026",
@@ -411,6 +424,19 @@
       "source": "commissioner"
     },
     {
+      "id": "pick-maya-israel-9",
+      "leagueId": "demo-league",
+      "seasonId": "demo-2026",
+      "playerId": "maya-israel",
+      "week": 9,
+      "teamId": "KC",
+      "gameId": "2026-w09-NYJ-at-KC",
+      "submittedAt": "2026-11-04T23:44:00.000Z",
+      "updatedAt": "2026-11-04T23:44:00.000Z",
+      "version": 1,
+      "source": "commissioner"
+    },
+    {
       "id": "pick-steve-harkov-7",
       "leagueId": "demo-league",
       "seasonId": "demo-2026",
@@ -433,6 +459,19 @@
       "gameId": "2026-w08-TEN-at-CIN",
       "submittedAt": "2026-10-28T12:46:00.000Z",
       "updatedAt": "2026-10-28T12:46:00.000Z",
+      "version": 1,
+      "source": "commissioner"
+    },
+    {
+      "id": "pick-steve-harkov-9",
+      "leagueId": "demo-league",
+      "seasonId": "demo-2026",
+      "playerId": "steve-harkov",
+      "week": 9,
+      "teamId": "SF",
+      "gameId": "2026-w09-LV-at-SF",
+      "submittedAt": "2026-11-05T15:26:00.000Z",
+      "updatedAt": "2026-11-05T15:26:00.000Z",
       "version": 1,
       "source": "commissioner"
     },
