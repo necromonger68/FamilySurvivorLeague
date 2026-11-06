@@ -62,29 +62,28 @@ const WEEK_8_PICKS: LeagueNote = {
 }
 
 /**
- * Week 9: the week 8 recap plus what week 9 holds. Shows once every week 8
- * game is final. Scores and records checked against the ESPN scoreboard; it
- * names no week 9 picks.
+ * Week 9, after the lock. It names every pick, so it replaced the week 8
+ * recap only once the week had locked. Records and kickoffs checked against
+ * the ESPN scoreboard.
  */
-const WEEK_9: LeagueNote = {
+const WEEK_9_PICKS: LeagueNote = {
   heading: 'Word from the commissioner',
   lines: [
-    'We have our first casualty, and it’s Eden, my own daughter. For two weeks Eden picked teams nobody in Chicago is allowed to like, and on Sunday the crow finally collected. Dallas was at home against a 2–5 Arizona team, which is about as safe as this league gets, so naturally the Cowboys let the Cardinals rally, went to overtime, and lost 33–30 on a field goal. As her mother, I’m heartbroken. As commissioner, I’m required to report it without bias, and I’d like the record to show I did not overturn it. Eden, you went out the way you played: boldly, loudly, and nowhere near the Bears. The crow is keeping your seat warm, and you’re still expected in the group chat. Heckling from the bleachers is encouraged.',
-    'Now, the carpool. Seven of us were on Cincinnati, at home, against a 1–6 Tennessee team. Easy, right? The Titans scored 36 points. Thirty-six. The team with one win all year turned into the ’85 Bears for an afternoon. The Bengals had to come from behind and needed overtime, and Joe Burrow threw five touchdown passes and then, apparently tired of waiting for anyone else, ran in the winner himself, 43–36. Seven of us survived. Seven of us also need a nap.',
-    'One person in this family was rooting for the Titans. Eyal, sitting safely on Jacksonville, did the math: if Cincinnati lost, seven of his rivals would lose a life and two would be out. I pointed out that those two would be his wife and his baby sister. He thought about it, nodded, and kept cheering for Tennessee. His Jaguars won 42–7, so he spent the afternoon with his own team winning by five touchdowns and his heart somewhere in Nashville. Eyal, we love you. We’re also never telling you our picks early again.',
-    'And Orit? Orit picks teams by colors and mascot, and she picked the Bengals because the HP Israel household has a Bengal cat named Zoey. That’s the whole strategy. No stats, no matchups, just the cat. So while her husband was on the couch rooting against her, the cat carried her through overtime. Science has no explanation. Zoey has been promoted to assistant commissioner and will be consulted on all future picks.',
-    'Everyone else got through. Karin’s Patriots won 24–19 at Miami, so the team that cost her mother a life last week turned around and saved Karin. She said she could fix them, and she did. Somebody get her a podcast. Eli’s Packers beat Carolina 27–19 on Thursday night, so Eli got to relax for three whole days while the rest of us suffered. And Aaron’s Bills beat Baltimore 36–10. After a week of going solo and getting burned, Aaron went solo again and was right. The crow is reconsidering everything.',
-    'The official count: Eden is out, and eleven of you are still alive. Four of you are on your last life: me, Orit, Eyal and Aaron. Seven still have two: Karin, Steve, Michele, Jordan, Eli, Robin and Tzvi.',
-    'And then Monday night. The Bears went to Seattle and won 34–17, and they’re now 6–2. For the second week in a row, not a single one of you was on them. A family full of Bears fans watched their team cruise on national television and got absolutely nothing for it. The crow watched the whole thing and laughed the entire time.',
-    'Week 9: Pittsburgh is on bye, so the Harkovs will have to find a new security blanket. Tennessee is off too, and Bengals fans everywhere are grateful. Thursday night is Jacksonville at Baltimore, which locks the week, and Eyal can’t use the Jaguars again. The Bengals play Atlanta in Madrid on Sunday at 8:30 in the morning, because this league apparently only plays breakfast games in Europe, but only Karin, Eli, Eyal and Aaron still have Cincinnati available. Buffalo goes to Minnesota on Monday night, two 6–1 teams, and the two players who’d want that game, Aaron and Karin, have already burned Buffalo and Minnesota. And the 6–2 Bears host Tampa Bay on Sunday night. Still unused. By anyone. In a family that is mostly Bears fans. The crow has stopped asking.',
-    'Four of you are on your last life. Choose like Orit: find a team with a good cat.',
+    'The picks are in, and this week the crow has company. Five of you picked an animal, four of you picked the 49ers, and two of you picked people. The crow has asked to be moved to a quieter page.',
+    'Let’s start with the Harkovs, who have gotten the band back together. In Week 7 it was four Harkovs on the Steelers. This week it’s Steve, Michele, Eli and Jordan, all on San Francisco, at home against the Raiders on Sunday afternoon. For Michele, our half-49ers, half-Bears fan, this is a big day: the 49ers at 3:25, the Bears at 7:20, and for one Sunday her heart is whole. Eden backed the Harkovs’ 49ers back in Week 7 and lost a life for it. Now the Harkovs are finally backing them too. Eden would like it on the record that she was early.',
+    'And Aaron? Aaron has now left the family plan three weeks running. This time he took the Rams at Washington, which means his new family plan is with his cousin Karin. Karin, undefeated so far, did not ask for a Harkov. She has one now.',
+    'Over in the HP Israel household, the zoo is open. Orit, who picked the Bengals last week because of the family cat, has moved on to her other love, horses, and took the Broncos. Denver plays at Carolina. The Panthers. So on Sunday, Orit’s horse takes on a cat. Zoey has been informed, and her assistant commissioner title is under review. Eyal took the Lions at Miami, so that’s a cat too, and the third straight week the couple went different ways. And Robin took Jacksonville, the team her dad rode to a 42–7 win last week, which makes her the first of us to find out: the Jaguars play at Baltimore tonight.',
+    'Robin’s husband Tzvi, meanwhile, took the Cowboys, the same Cowboys who knocked Eden out of the league last Sunday. Dallas plays at Indianapolis. The Colts. Horses. So on Sunday, Orit is riding a horse and her son-in-law is trying to beat one. Thanksgiving is going to be interesting.',
+    'Your commissioner took Kansas City, at home against the 2–6 Jets. Yes, those Jets, who cost Aaron a life in Week 7. I’m on my last life, so I went with the most boring pick on the board. Don’t judge me. Judge Eyal.',
+    'And the Bears? They’re 6–2, they host Tampa Bay on Sunday night, and for the third week in a row nobody picked them. At this point it’s not an oversight, it’s a family tradition. The crow has started wearing navy and orange out of pity.',
+    'Four of you are on your last life: me with a Chief, Orit with a horse, Eyal with a cat, and Aaron with a Ram and his cousin. Everyone else still has two. Robin, good luck tonight. We’ll all be watching, and Eyal will be rooting for whatever helps Eyal.',
   ],
   callout:
-    'Text me your week 9 pick before 7:10 PM Thursday, five minutes before Jacksonville at Baltimore kicks off. Four of you are on your last life, and a missed pick costs a life like any other.',
+    'Your week 9 pick locked at 7:10 PM Thursday, so it’s out of your hands now. Next week works the same way: text me your pick before the lock, and a missed pick still costs a life.',
 }
 
 export const NOTES: Record<number, LeagueNote> = {
   7: WEEK_7_PICKS,
   8: WEEK_8_PICKS,
-  9: WEEK_9,
+  9: WEEK_9_PICKS,
 }
