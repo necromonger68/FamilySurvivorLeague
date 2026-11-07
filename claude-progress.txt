@@ -58,3 +58,6 @@ DONE   : Renamed "Israel NFL Survivor League" → "Family NFL Survivor League" (
 TESTS  : npm run validate green.
 NEXT   : Family roster → scripts/league.ts before the week 7 lock (Thu 2026-10-22 7:10 PM CT).
 BLOCKED: none
+
+2026-11-06 — Claude Opus 5.5 (from Zac's league) — The crowning: when there is a champion and they are on screen, the page goes dark round them, a shaft of light comes down, a gold ring draws round their headshot, gold leaf falls, then the lights come up on gold-and-ivory confetti and the ring stays. Once per page load; nothing for reduced motion. Also fixes the champion confetti never firing in local dev (React StrictMode). Ported from Zac-Harlan-Lee-Enterprises/Survivor; styles placed beside the funeral styles (this league has no Death walk-on). lint, typecheck, npm test (312), e2e (105) green; filmed on the leaderboard.
+NEXT: Maya merges the PR if she likes it.
