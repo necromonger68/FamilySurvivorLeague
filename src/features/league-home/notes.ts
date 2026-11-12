@@ -83,30 +83,29 @@ const WEEK_9_PICKS: LeagueNote = {
 }
 
 /**
- * Week 10: the week 9 recap plus what week 10 holds. Shows once every week 9
- * game is final. Scores and records checked against the ESPN scoreboard; it
- * names no week 10 picks.
+ * Week 10, after the lock. It names every pick, so it replaced the week 9
+ * recap only once the week had locked. Records and kickoffs checked against
+ * the ESPN scoreboard.
  */
-const WEEK_10: LeagueNote = {
+const WEEK_10_PICKS: LeagueNote = {
   heading: 'Word from the commissioner',
   lines: [
-    'For the first time this season, nobody lost a life. Eleven picks, eleven wins. The crow sat on the scoreboard all weekend waiting for something to happen, and nothing did. He’s filed a complaint.',
-    'Robin went first and set the tone. Her Jaguars went to Baltimore on Thursday night and won 33–10, so Robin got to spend the whole weekend relaxed while the rest of us sweated. That’s two weeks in a row the Jaguars have carried someone in the HP Israel household. Her dad would like credit for discovering them.',
-    'The Harkovs’ band reunion was a hit. The 49ers beat the Raiders 38–17, with five takeaways in the second half, and Steve, Michele, Eli and Jordan all move on together. Then the Bears won on Sunday night, so Michele got the full half-and-half Sunday, both halves happy. Eden was early on the 49ers, and she would like everyone to know it.',
-    'The zoo also had a perfect weekend. Orit’s horse beat the cat: Denver won 26–21 at Carolina, the Broncos’ fifth straight win. Zoey remains under review. Eyal’s Lions won 19–9 in Miami on four field goals, which is a very Eyal way to win: get the job done and make nobody happy watching it. And Tzvi’s Cowboys beat the Colts 27–23 with a late touchdown, so Orit’s horse won and her son-in-law beat a horse. Everyone in that family won, and Thanksgiving is saved.',
-    'Karin and Aaron’s Rams won 20–13 at Washington, which makes Karin three for three. Aaron, your new family plan works. Don’t tell your parents. And your commissioner’s very boring Chiefs beat the Jets 35–12. The boring pick was boring, exactly as planned.',
-    'The Bears beat Tampa Bay 27–24 on a last field goal and are now 7–2. That makes three weeks in a row nobody in this family picked the Bears, and they’ve won all three. Next week they’re on bye, so nobody can pick them even if they wanted to. The family’s “don’t pick the Bears” strategy is officially undefeated.',
-    'The official count: nobody lost a life. Eleven of you are still alive. Four are on your last life: me, Orit, Eyal and Aaron. Seven still have two: Karin, Steve, Michele, Jordan, Eli, Robin and Tzvi.',
-    'Week 10: Chicago, Denver, Philadelphia and Tampa Bay are on bye. Thursday night is Washington at the Giants, which locks the week. New England and Detroit play in Munich on Sunday at 8:30 in the morning: Paris, Madrid, Munich, so this league’s breakfast games are now on a European tour. Minnesota goes to Green Bay, Jacksonville goes to 1–7 Tennessee, and the 49ers go to Dallas. Sunday night is Pittsburgh at Cincinnati, the two teams this family has leaned on most: four of you have used the Steelers and seven have used the Bengals.',
-    'Now, a word about remembering. Karin, Steve and Eyal have texted me their picks every single week without a reminder. Michele hasn’t needed one in two weeks, and her system is simple: whatever Steve picks. It counts, it’s on time, and frankly it’s more reliable than most of you. And yes, Eyal is the one who rooted against his own wife and baby sister. So you can trust Eyal to remember. Just not to root for you. Everyone else needed a nudge. As this gets more competitive, the nudges may stop. The commissioner’s patience has a lock time too.',
+    'The picks are in, and for the first time this season, all eleven of you sent yours without a single reminder. Not one nudge. Last week I said the reminders might stop, and apparently that’s all it took. Karin, Steve and Eyal, that’s four weeks in a row. Everyone else: see? You could do it all along. The crow had been practicing his reminder voice all week and never got to use it. He’s filed a second complaint.',
+    'Let’s start with the Harkovs, who are back together, mostly. Steve, Jordan and Eli are on the 7–1 Bills, at the 2–7 Jets on Sunday at noon. Michele is on the Bills too, though she took the scenic route. She asked for the Bengals first, found out she’d already used them in Week 8, and then, completely on her own, landed on the exact same team as her husband, her son and her daughter. Pure coincidence. Just like Weeks 7, 8 and 9, when she also happened to pick exactly what Steve picked. Your commissioner is not saying there’s a secret Harkov group chat. Your commissioner is just asking questions. And yes, those are the same Jets who cost Aaron a life in Week 7, so the Harkovs are finally avenging him. Aaron won’t be there to see it.',
+    'Because Aaron has left the family plan for the fourth week running. If there is a group chat, he has clearly muted it. He’s alone on the Bengals, at home against Pittsburgh on Sunday night. Those are the Steelers his whole family rode in Week 7. His mom tried to follow him to Cincinnati and got turned away at the door. Aaron is on his last life and in the last game of the weekend, so he gets to watch everyone else finish before he even kicks off. Aaron, we’ll be up. Probably.',
+    'Over in the HP Israel household, the Jaguars have become a family heirloom. Eyal rode them in Week 8 and Robin rode them in Week 9. This week Orit and Karin both took them, at 1–7 Tennessee on Sunday at noon. For Orit, it’s the natural next step: a cat in Week 8, a horse in Week 9, and now a jaguar, which is a cat that got a promotion. Zoey has been told she has competition. Your commissioner is on the Jaguars too, which makes three of us. Orit and I are both on our last life, and the Titans are 1–7. Nothing could possibly go wrong.',
+    'Meanwhile Eyal and Robin took the Rams, the team Karin rode last week. So the household split right down the middle: the mother-daughter wing on the cat, father and daughter on the Rams. The Rams play at Arizona, the same Cardinals who knocked Eden, my own daughter, out of this league in Week 8. Eyal, if you win this one, you can tell Eden it was for her. She won’t believe you either.',
+    'And tonight, Tzvi goes first. Last week it was his wife Robin on Thursday night. This week it’s Tzvi, with the 5–2–1 Giants at home against 2–5–1 Washington. Yes, both teams have a tie this season, and in this league a tie counts as a loss, so Tzvi needs an actual win. A game where nobody wins is exactly what Eyal roots for every week. Tzvi, good luck. The rest of us get to enjoy a Thursday night game with nothing on the line.',
+    'The Bears are on bye, which means for the fourth week in a row, nobody picked the Bears. This time it isn’t even our fault. The crow is wearing navy and orange anyway.',
+    'The final board: four on the Bills, three on the Jaguars, two on the Rams, one Giant and one Bengal. Nobody took the 49ers at Dallas, because every Harkov has already used them. Nobody took the 8:30 AM game in Munich either, which is the most sensible thing this family has ever done. Seven of us play at noon on Sunday, so by lunchtime most of the league will know where it stands. Four of us are on our last life: Orit and me on the Jaguars, Eyal on the Rams, and Aaron on the Bengals.',
   ],
   callout:
-    'Text me your week 10 pick before 7:10 PM Thursday, five minutes before Washington at the Giants kicks off. Reminders are not guaranteed, and a missed pick costs a life.',
+    'Your week 10 pick locked at 7:10 PM Thursday, so it’s out of your hands now. Next week works the same way: text me your pick before the lock, and a missed pick still costs a life.',
 }
 
 export const NOTES: Record<number, LeagueNote> = {
   7: WEEK_7_PICKS,
   8: WEEK_8_PICKS,
   9: WEEK_9_PICKS,
-  10: WEEK_10,
+  10: WEEK_10_PICKS,
 }
