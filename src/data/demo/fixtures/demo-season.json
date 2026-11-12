@@ -398,6 +398,19 @@
       "source": "commissioner"
     },
     {
+      "id": "pick-karin-israel-10",
+      "leagueId": "demo-league",
+      "seasonId": "demo-2026",
+      "playerId": "karin-israel",
+      "week": 10,
+      "teamId": "JAX",
+      "gameId": "2026-w10-JAX-at-TEN",
+      "submittedAt": "2026-11-12T15:22:00.000Z",
+      "updatedAt": "2026-11-12T15:22:00.000Z",
+      "version": 1,
+      "source": "commissioner"
+    },
+    {
       "id": "pick-maya-israel-7",
       "leagueId": "demo-league",
       "seasonId": "demo-2026",
@@ -433,6 +446,19 @@
       "gameId": "2026-w09-NYJ-at-KC",
       "submittedAt": "2026-11-04T23:44:00.000Z",
       "updatedAt": "2026-11-04T23:44:00.000Z",
+      "version": 1,
+      "source": "commissioner"
+    },
+    {
+      "id": "pick-maya-israel-10",
+      "leagueId": "demo-league",
+      "seasonId": "demo-2026",
+      "playerId": "maya-israel",
+      "week": 10,
+      "teamId": "JAX",
+      "gameId": "2026-w10-JAX-at-TEN",
+      "submittedAt": "2026-11-11T18:07:00.000Z",
+      "updatedAt": "2026-11-11T18:07:00.000Z",
       "version": 1,
       "source": "commissioner"
     },
@@ -476,6 +502,19 @@
       "source": "commissioner"
     },
     {
+      "id": "pick-steve-harkov-10",
+      "leagueId": "demo-league",
+      "seasonId": "demo-2026",
+      "playerId": "steve-harkov",
+      "week": 10,
+      "teamId": "BUF",
+      "gameId": "2026-w10-BUF-at-NYJ",
+      "submittedAt": "2026-11-11T18:07:00.000Z",
+      "updatedAt": "2026-11-11T18:07:00.000Z",
+      "version": 1,
+      "source": "commissioner"
+    },
+    {
       "id": "pick-eyal-israel-7",
       "leagueId": "demo-league",
       "seasonId": "demo-2026",
@@ -511,6 +550,19 @@
       "gameId": "2026-w09-DET-at-MIA",
       "submittedAt": "2026-11-05T16:46:00.000Z",
       "updatedAt": "2026-11-05T16:46:00.000Z",
+      "version": 1,
+      "source": "commissioner"
+    },
+    {
+      "id": "pick-eyal-israel-10",
+      "leagueId": "demo-league",
+      "seasonId": "demo-2026",
+      "playerId": "eyal-israel",
+      "week": 10,
+      "teamId": "LAR",
+      "gameId": "2026-w10-LAR-at-ARI",
+      "submittedAt": "2026-11-12T15:22:00.000Z",
+      "updatedAt": "2026-11-12T15:22:00.000Z",
       "version": 1,
       "source": "commissioner"
     },
