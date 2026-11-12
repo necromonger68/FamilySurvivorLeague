@@ -762,6 +762,19 @@
       "source": "commissioner"
     },
     {
+      "id": "pick-michele-harkov-10",
+      "leagueId": "demo-league",
+      "seasonId": "demo-2026",
+      "playerId": "michele-harkov",
+      "week": 10,
+      "teamId": "BUF",
+      "gameId": "2026-w10-BUF-at-NYJ",
+      "submittedAt": "2026-11-12T21:36:00.000Z",
+      "updatedAt": "2026-11-12T21:36:00.000Z",
+      "version": 1,
+      "source": "commissioner"
+    },
+    {
       "id": "pick-orit-israel-7",
       "leagueId": "demo-league",
       "seasonId": "demo-2026",
