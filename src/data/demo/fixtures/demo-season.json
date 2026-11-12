@@ -762,6 +762,19 @@
       "source": "commissioner"
     },
     {
+      "id": "pick-michele-harkov-10",
+      "leagueId": "demo-league",
+      "seasonId": "demo-2026",
+      "playerId": "michele-harkov",
+      "week": 10,
+      "teamId": "BUF",
+      "gameId": "2026-w10-BUF-at-NYJ",
+      "submittedAt": "2026-11-12T21:36:00.000Z",
+      "updatedAt": "2026-11-12T21:36:00.000Z",
+      "version": 1,
+      "source": "commissioner"
+    },
+    {
       "id": "pick-orit-israel-7",
       "leagueId": "demo-league",
       "seasonId": "demo-2026",
@@ -853,6 +866,19 @@
       "source": "commissioner"
     },
     {
+      "id": "pick-eli-harkov-10",
+      "leagueId": "demo-league",
+      "seasonId": "demo-2026",
+      "playerId": "eli-harkov",
+      "week": 10,
+      "teamId": "BUF",
+      "gameId": "2026-w10-BUF-at-NYJ",
+      "submittedAt": "2026-11-12T20:09:00.000Z",
+      "updatedAt": "2026-11-12T20:09:00.000Z",
+      "version": 1,
+      "source": "commissioner"
+    },
+    {
       "id": "pick-jordan-harkov-7",
       "leagueId": "demo-league",
       "seasonId": "demo-2026",
@@ -888,6 +914,19 @@
       "gameId": "2026-w09-LV-at-SF",
       "submittedAt": "2026-11-05T17:30:00.000Z",
       "updatedAt": "2026-11-05T17:30:00.000Z",
+      "version": 1,
+      "source": "commissioner"
+    },
+    {
+      "id": "pick-jordan-harkov-10",
+      "leagueId": "demo-league",
+      "seasonId": "demo-2026",
+      "playerId": "jordan-harkov",
+      "week": 10,
+      "teamId": "BUF",
+      "gameId": "2026-w10-BUF-at-NYJ",
+      "submittedAt": "2026-11-12T20:09:00.000Z",
+      "updatedAt": "2026-11-12T20:09:00.000Z",
       "version": 1,
       "source": "commissioner"
     },
