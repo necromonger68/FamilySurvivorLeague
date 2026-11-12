@@ -606,6 +606,19 @@
       "source": "commissioner"
     },
     {
+      "id": "pick-aaron-harkov-10",
+      "leagueId": "demo-league",
+      "seasonId": "demo-2026",
+      "playerId": "aaron-harkov",
+      "week": 10,
+      "teamId": "CIN",
+      "gameId": "2026-w10-PIT-at-CIN",
+      "submittedAt": "2026-11-12T18:36:00.000Z",
+      "updatedAt": "2026-11-12T18:36:00.000Z",
+      "version": 1,
+      "source": "commissioner"
+    },
+    {
       "id": "pick-robin-herman-7",
       "leagueId": "demo-league",
       "seasonId": "demo-2026",
@@ -645,6 +658,19 @@
       "source": "commissioner"
     },
     {
+      "id": "pick-robin-herman-10",
+      "leagueId": "demo-league",
+      "seasonId": "demo-2026",
+      "playerId": "robin-herman",
+      "week": 10,
+      "teamId": "LAR",
+      "gameId": "2026-w10-LAR-at-ARI",
+      "submittedAt": "2026-11-12T17:34:00.000Z",
+      "updatedAt": "2026-11-12T17:34:00.000Z",
+      "version": 1,
+      "source": "commissioner"
+    },
+    {
       "id": "pick-tzvi-herman-7",
       "leagueId": "demo-league",
       "seasonId": "demo-2026",
@@ -680,6 +706,19 @@
       "gameId": "2026-w09-DAL-at-IND",
       "submittedAt": "2026-11-05T17:15:00.000Z",
       "updatedAt": "2026-11-05T17:15:00.000Z",
+      "version": 1,
+      "source": "commissioner"
+    },
+    {
+      "id": "pick-tzvi-herman-10",
+      "leagueId": "demo-league",
+      "seasonId": "demo-2026",
+      "playerId": "tzvi-herman",
+      "week": 10,
+      "teamId": "NYG",
+      "gameId": "2026-w10-WAS-at-NYG",
+      "submittedAt": "2026-11-12T18:36:00.000Z",
+      "updatedAt": "2026-11-12T18:36:00.000Z",
       "version": 1,
       "source": "commissioner"
     },
@@ -758,6 +797,19 @@
       "gameId": "2026-w09-DEN-at-CAR",
       "submittedAt": "2026-11-05T23:03:00.000Z",
       "updatedAt": "2026-11-05T23:03:00.000Z",
+      "version": 1,
+      "source": "commissioner"
+    },
+    {
+      "id": "pick-orit-israel-10",
+      "leagueId": "demo-league",
+      "seasonId": "demo-2026",
+      "playerId": "orit-israel",
+      "week": 10,
+      "teamId": "JAX",
+      "gameId": "2026-w10-JAX-at-TEN",
+      "submittedAt": "2026-11-12T17:31:00.000Z",
+      "updatedAt": "2026-11-12T17:31:00.000Z",
       "version": 1,
       "source": "commissioner"
     },
