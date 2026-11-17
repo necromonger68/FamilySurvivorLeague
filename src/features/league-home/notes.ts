@@ -103,9 +103,32 @@ const WEEK_10_PICKS: LeagueNote = {
     'Your week 10 pick locked at 7:10 PM Thursday, so it’s out of your hands now. Next week works the same way: text me your pick before the lock, and a missed pick still costs a life.',
 }
 
+/**
+ * Week 11: the week 10 recap plus what week 11 holds. Shows once every week 10
+ * game is final. Scores and records checked against the ESPN scoreboard; it
+ * names no week 11 picks.
+ */
+const WEEK_11: LeagueNote = {
+  heading: 'Word from the commissioner',
+  lines: [
+    'Week 10 is in the books, and the crow finally got some work. Ten of you won. One of you didn’t. The crow would like to thank Washington for the opportunity.',
+    'Tzvi went first on Thursday night, just like his wife Robin the week before. Robin’s Thursday ended in a 33–10 win. Tzvi’s did not. The Giants had Washington right where they wanted them, and then Washington rallied and won 24–21. It wasn’t even a tie, which would have counted as a loss anyway. It was just a regular loss, which also counts as a loss. It’s the first life this league has lost since Week 8, and Tzvi is now on his last one. Eyal, who roots for everyone else to lose, finally got his wish, and it was his own son-in-law. Be careful what you wish for.',
+    'Meanwhile, the Harkov group chat, which officially does not exist, had a perfect weekend. Steve, Michele, Jordan and Eli all rode the Bills to a 31–12 win over the Jets, Buffalo’s best start in 35 years. Aaron’s Week 7 loss to the Jets has been avenged. And Aaron, alone on the Bengals on Sunday night, watched Cincinnati crush the Steelers 38–18. Joe Burrow threw for 409 yards, so Aaron never had to sweat, and the rest of us could have gone to bed. Some of us did. So the group chat went four for four, and the guy who muted it went one for one. Inconclusive. The investigation continues.',
+    'The family heirloom held up. The Jaguars won 40–23 at Tennessee, their sixth win in seven games, so Orit, Karin and your commissioner all move on. Orit’s cat with a promotion delivered, and Zoey has been asked to step aside. Karin is now four for four. And Eyal and Robin’s Rams crushed Arizona 34–6, their fourth straight win. That’s the team that knocked Eden, my own daughter, out of this league. Eyal, you can tell Eden it was for her now. She still doesn’t believe you.',
+    'The Bears were on bye, so for the fourth straight week nobody picked them, and for the fourth straight week they didn’t lose. Michele still got half a Sunday: with the Bears off, her 49ers beat Dallas 46–40. And in Munich, Amon-Ra St. Brown wore lederhosen to the stadium, then scored twice in a 35–10 Lions rout. Nobody picked that game either. The breakfast-game boycott continues.',
+    'The official count: one life lost, nobody eliminated. All eleven of you are still alive. Five are on their last life: me, Orit, Eyal, Aaron and now Tzvi. Six still have two: Karin, Steve, Michele, Jordan, Eli and Robin. In the HP Israel family, both daughters still have two lives, and both parents are down to one. Karin and Robin, please stop showing off.',
+    'Week 11: Atlanta, Cleveland, Green Bay, the Rams, New England and Seattle are on bye. Thursday night is Indianapolis at Houston, which locks the week. The 8–1 Bills host the 1–8 Dolphins, and the four Harkovs who just rode them can only watch. The Jaguars play at the Giants, where Tzvi would like a word. Minnesota and San Francisco play in Mexico City on Sunday night, and Cincinnati is at Washington on Monday night.',
+    'And the Bears? They’re 7–2 and host the 3–6 Saints at noon on Sunday. Not one of you has used them, which means all eleven of you can. That’s four weeks of the “don’t pick the Bears” strategy and four weeks without a Bears loss. This is the week we find out whether it was a strategy or a superstition.',
+    'One more thing: last week, all eleven of you sent your picks without a reminder. Let’s make it two in a row. The crow is still practicing his reminder voice, just in case.',
+  ],
+  callout:
+    'Text me your week 11 pick before 7:10 PM Thursday, five minutes before Indianapolis at Houston kicks off. Reminders are not guaranteed, and a missed pick costs a life.',
+}
+
 export const NOTES: Record<number, LeagueNote> = {
   7: WEEK_7_PICKS,
   8: WEEK_8_PICKS,
   9: WEEK_9_PICKS,
   10: WEEK_10_PICKS,
+  11: WEEK_11,
 }
