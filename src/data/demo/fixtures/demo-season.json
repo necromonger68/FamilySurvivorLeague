@@ -541,6 +541,19 @@
       "source": "commissioner"
     },
     {
+      "id": "pick-steve-harkov-11",
+      "leagueId": "demo-league",
+      "seasonId": "demo-2026",
+      "playerId": "steve-harkov",
+      "week": 11,
+      "teamId": "KC",
+      "gameId": "2026-w11-ARI-at-KC",
+      "submittedAt": "2026-11-19T20:57:00.000Z",
+      "updatedAt": "2026-11-19T20:57:00.000Z",
+      "version": 1,
+      "source": "commissioner"
+    },
+    {
       "id": "pick-eyal-israel-7",
       "leagueId": "demo-league",
       "seasonId": "demo-2026",
@@ -853,6 +866,19 @@
       "source": "commissioner"
     },
     {
+      "id": "pick-michele-harkov-11",
+      "leagueId": "demo-league",
+      "seasonId": "demo-2026",
+      "playerId": "michele-harkov",
+      "week": 11,
+      "teamId": "DEN",
+      "gameId": "2026-w11-LV-at-DEN",
+      "submittedAt": "2026-11-19T20:57:00.000Z",
+      "updatedAt": "2026-11-19T20:57:00.000Z",
+      "version": 1,
+      "source": "commissioner"
+    },
+    {
       "id": "pick-orit-israel-7",
       "leagueId": "demo-league",
       "seasonId": "demo-2026",
@@ -957,6 +983,19 @@
       "source": "commissioner"
     },
     {
+      "id": "pick-eli-harkov-11",
+      "leagueId": "demo-league",
+      "seasonId": "demo-2026",
+      "playerId": "eli-harkov",
+      "week": 11,
+      "teamId": "CAR",
+      "gameId": "2026-w11-BAL-at-CAR",
+      "submittedAt": "2026-11-19T20:57:00.000Z",
+      "updatedAt": "2026-11-19T20:57:00.000Z",
+      "version": 1,
+      "source": "commissioner"
+    },
+    {
       "id": "pick-jordan-harkov-7",
       "leagueId": "demo-league",
       "seasonId": "demo-2026",
@@ -1005,6 +1044,19 @@
       "gameId": "2026-w10-BUF-at-NYJ",
       "submittedAt": "2026-11-12T20:09:00.000Z",
       "updatedAt": "2026-11-12T20:09:00.000Z",
+      "version": 1,
+      "source": "commissioner"
+    },
+    {
+      "id": "pick-jordan-harkov-11",
+      "leagueId": "demo-league",
+      "seasonId": "demo-2026",
+      "playerId": "jordan-harkov",
+      "week": 11,
+      "teamId": "DEN",
+      "gameId": "2026-w11-LV-at-DEN",
+      "submittedAt": "2026-11-19T20:57:00.000Z",
+      "updatedAt": "2026-11-19T20:57:00.000Z",
       "version": 1,
       "source": "commissioner"
     },
