@@ -104,25 +104,27 @@ const WEEK_10_PICKS: LeagueNote = {
 }
 
 /**
- * Week 11: the week 10 recap plus what week 11 holds. Shows once every week 10
- * game is final. Scores and records checked against the ESPN scoreboard; it
- * names no week 11 picks.
+ * Week 11, after the lock. It names every pick, so it replaced the week 10
+ * recap only once the week had locked. Records and kickoffs checked against
+ * the ESPN scoreboard; the week 12 lock (Wednesday 6:55 PM) checked against
+ * evaluateSeason.
  */
-const WEEK_11: LeagueNote = {
+const WEEK_11_PICKS: LeagueNote = {
   heading: 'Word from the commissioner',
   lines: [
-    'Week 10 is in the books, and the crow finally got some work. Ten of you won. One of you didn’t. The crow would like to thank Washington for the opportunity.',
-    'Tzvi went first on Thursday night, just like his wife Robin the week before. Robin’s Thursday ended in a 33–10 win. Tzvi’s did not. The Giants had Washington right where they wanted them, and then Washington rallied and won 24–21. It wasn’t even a tie, which would have counted as a loss anyway. It was just a regular loss, which also counts as a loss. It’s the first life this league has lost since Week 8, and Tzvi is now on his last one. Eyal, who roots for everyone else to lose, finally got his wish, and it was his own son-in-law. Be careful what you wish for.',
-    'Meanwhile, the Harkov group chat, which officially does not exist, had a perfect weekend. Steve, Michele, Jordan and Eli all rode the Bills to a 31–12 win over the Jets, Buffalo’s best start in 35 years. Aaron’s Week 7 loss to the Jets has been avenged. And Aaron, alone on the Bengals on Sunday night, watched Cincinnati crush the Steelers 38–18. Joe Burrow threw for 409 yards, so Aaron never had to sweat, and the rest of us could have gone to bed. Some of us did. So the group chat went four for four, and the guy who muted it went one for one. Inconclusive. The investigation continues.',
-    'The family heirloom held up. The Jaguars won 40–23 at Tennessee, their sixth win in seven games, so Orit, Karin and your commissioner all move on. Orit’s cat with a promotion delivered, and Zoey has been asked to step aside. Karin is now four for four. And Eyal and Robin’s Rams crushed Arizona 34–6, their fourth straight win. That’s the team that knocked Eden, my own daughter, out of this league. Eyal, you can tell Eden it was for her now. She still doesn’t believe you.',
-    'The Bears were on bye, so for the fourth straight week nobody picked them, and for the fourth straight week they didn’t lose. Michele still got half a Sunday: with the Bears off, her 49ers beat Dallas 46–40. And in Munich, Amon-Ra St. Brown wore lederhosen to the stadium, then scored twice in a 35–10 Lions rout. Nobody picked that game either. The breakfast-game boycott continues.',
-    'The official count: one life lost, nobody eliminated. All eleven of you are still alive. Five are on their last life: me, Orit, Eyal, Aaron and now Tzvi. Six still have two: Karin, Steve, Michele, Jordan, Eli and Robin. In the HP Israel family, both daughters still have two lives, and both parents are down to one. Karin and Robin, please stop showing off.',
-    'Week 11: Atlanta, Cleveland, Green Bay, the Rams, New England and Seattle are on bye. Thursday night is Indianapolis at Houston, which locks the week. The 8–1 Bills host the 1–8 Dolphins, and the four Harkovs who just rode them can only watch. The Jaguars play at the Giants, where Tzvi would like a word. Minnesota and San Francisco play in Mexico City on Sunday night, and Cincinnati is at Washington on Monday night.',
-    'And the Bears? They’re 7–2 and host the 3–6 Saints at noon on Sunday. Not one of you has used them, which means all eleven of you can. That’s four weeks of the “don’t pick the Bears” strategy and four weeks without a Bears loss. This is the week we find out whether it was a strategy or a superstition.',
-    'One more thing: last week, all eleven of you sent your picks without a reminder. Let’s make it two in a row. The crow is still practicing his reminder voice, just in case.',
+    'The picks are in, and the Bears finally have a believer. After four weeks of this family treating Chicago like a stove you’re not supposed to touch, somebody touched it. The crow has put on his navy and orange and is pretending he always had them on.',
+    'It was Eyal, of course, and he did it on his birthday. Our die-hard Bears fan turned a year older on Thursday and gave himself the 7–2 Bears, at home against the 3–6 Saints at noon on Sunday, with his last life on the line. Last week I asked whether “don’t pick the Bears” was a strategy or a superstition, and the birthday boy has volunteered to find out. Happy birthday, Eyal. For once, the whole family will be rooting for you. Consider it your present. You would never return the favor.',
+    'Meanwhile, Steve has gone into witness protection. He held off on sending his pick this week on purpose, to make sure nobody could copy him. Steve, the only person who has ever copied you is your wife. And this week, for the first time all season, she didn’t: Steve took the 7–2 Chiefs at home against the 3–7 Cardinals, and Michele took the Broncos with Jordan. Eli tried the Bills, found out he’d used them last week, and settled on the Panthers. That’s three different teams in one household. Either Steve’s plan worked, or the Harkov group chat is down. The investigation continues.',
+    'And Aaron? After four straight weeks of leaving the family plan, Aaron finally rejoined it. He took the Broncos, same as his mom and his sister, in the one week the family plan fell apart. Aaron, your timing remains perfect.',
+    'That makes the Broncos the most crowded team on the board: Michele, Jordan, Aaron and your commissioner, all at home against the 4–6 Raiders at 3:25 on Sunday. Orit started the horse craze in Week 9, and now four of us are riding it. Orit, meanwhile, has moved on.',
+    'Orit took the Chiefs, and when I asked why, she sent me exactly one thing: 🏹. That’s it. That’s the explanation. Your commissioner is still waiting for a translation. The leading theories are the arrowhead on the Chiefs’ helmets, the stadium named Arrowhead, and the Chiefs’ horse, Warpaint, because with Orit there is always a horse. Either way, Steve held his pick back so nobody could copy him and still ended up with company. Steve, she says it was the arrow.',
+    'Karin and Robin both took the 8–1 Bills, at home against the 1–8 Dolphins at noon. Four Harkovs rode the Bills last week, so the sisters have basically moved into a house the Harkovs just left. They’re also the only two in the HP Israel family with two lives left, and they picked the safest-looking game on the board. Karin and Robin, I asked you to stop showing off. You did not.',
+    'Tzvi, on his last life after last Thursday’s heartbreak, took the 6–3 Steelers at the 2–7 Eagles. All four Harkovs rode the Steelers back in Week 7, so Tzvi is now the most Harkov member of the Herman household. And Eli’s Panthers host the 4–6 Ravens. Panthers. Big cats. Zoey approves.',
+    'The final board: four on the Broncos, two on the Bills, two on the Chiefs, and one each on the Bears, the Steelers and the Panthers. Nobody took Thursday night’s game, so for the first time this season nobody goes first, and we all get to sweat together on Sunday. Seven of us play at noon. Five of us are on our last life: Aaron and me on the Broncos, Orit on the Chiefs, Eyal on the Bears and Tzvi on the Steelers.',
+    'A word on reminders. Last week, all eleven of you sent your picks without a nudge. This week, that streak ended at exactly one week, and the nudges were back. So here’s the important part: next week is Thanksgiving, and the NFL starts the week early. Week 12 opens Wednesday night with Green Bay at the Rams, so the lock is Wednesday at 6:55 PM, not Thursday. Between the travel and the turkey, I can’t promise anyone a nudge. Get your pick in before the turkey. Or at least before the pie.',
   ],
   callout:
-    'Text me your week 11 pick before 7:10 PM Thursday, five minutes before Indianapolis at Houston kicks off. Reminders are not guaranteed, and a missed pick costs a life.',
+    'Your week 11 pick locked at 7:10 PM Thursday, so it’s out of your hands now. Next week is different: the week 12 lock is 6:55 PM Wednesday, the night before Thanksgiving. Text me your pick before then, and a missed pick still costs a life.',
 }
 
 export const NOTES: Record<number, LeagueNote> = {
@@ -130,5 +132,5 @@ export const NOTES: Record<number, LeagueNote> = {
   8: WEEK_8_PICKS,
   9: WEEK_9_PICKS,
   10: WEEK_10_PICKS,
-  11: WEEK_11,
+  11: WEEK_11_PICKS,
 }
