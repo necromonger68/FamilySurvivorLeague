@@ -658,6 +658,19 @@
       "source": "commissioner"
     },
     {
+      "id": "pick-aaron-harkov-11",
+      "leagueId": "demo-league",
+      "seasonId": "demo-2026",
+      "playerId": "aaron-harkov",
+      "week": 11,
+      "teamId": "DEN",
+      "gameId": "2026-w11-LV-at-DEN",
+      "submittedAt": "2026-11-19T20:47:00.000Z",
+      "updatedAt": "2026-11-19T20:47:00.000Z",
+      "version": 1,
+      "source": "commissioner"
+    },
+    {
       "id": "pick-robin-herman-7",
       "leagueId": "demo-league",
       "seasonId": "demo-2026",
@@ -771,6 +784,19 @@
       "gameId": "2026-w10-WAS-at-NYG",
       "submittedAt": "2026-11-12T18:36:00.000Z",
       "updatedAt": "2026-11-12T18:36:00.000Z",
+      "version": 1,
+      "source": "commissioner"
+    },
+    {
+      "id": "pick-tzvi-herman-11",
+      "leagueId": "demo-league",
+      "seasonId": "demo-2026",
+      "playerId": "tzvi-herman",
+      "week": 11,
+      "teamId": "PIT",
+      "gameId": "2026-w11-PIT-at-PHI",
+      "submittedAt": "2026-11-19T20:47:00.000Z",
+      "updatedAt": "2026-11-19T20:47:00.000Z",
       "version": 1,
       "source": "commissioner"
     },
