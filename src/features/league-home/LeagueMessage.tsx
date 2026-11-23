@@ -8,7 +8,8 @@ import { NOTES } from './notes'
  * The copy is editorial and lives in ./notes.ts: it is written for one moment
  * in the season, not derived from the data. `week` gates it, so when the league
  * moves on and nobody has written the next one, the section simply is not
- * there rather than shouting about a week gone by.
+ * there rather than shouting about a week gone by. Which week to show is
+ * decided by noteWeekFor (a note can opt in to posting before Monday night).
  */
 export function LeagueMessage({ week }: { week: number }) {
   const note = NOTES[week]
