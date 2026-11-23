@@ -21,6 +21,15 @@ export interface LeagueNote {
    * locks, what missing costs — set apart from the banter so nobody skims past it.
    */
   callout?: string
+  /**
+   * Post this note before the previous week is officially over: as soon as
+   * every pick in that week has a result, even if games nobody picked (say,
+   * Monday night) are still to be played. See noteWeekFor.
+   *
+   * Only for a note written before its own week locks (a recap and preview),
+   * so it must not name anyone's pick for its own week.
+   */
+  postEarly?: boolean
 }
 
 /**

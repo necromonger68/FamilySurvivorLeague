@@ -22,6 +22,7 @@ import {
 import { Headshot } from '@/components/Headshot'
 import { PlayerCard } from '@/components/PlayerCard'
 import { LeagueMessage } from './LeagueMessage'
+import { noteWeekFor } from './noteWeek'
 import { TeamMonogram } from '@/components/TeamMonogram'
 import { Countdown } from '@/components/Countdown'
 import { Button } from '@/components/ui/button'
@@ -142,7 +143,7 @@ export function LeagueHome() {
         </div>
       </section>
 
-      <LeagueMessage week={evaluation.currentWeek} />
+      <LeagueMessage week={noteWeekFor(evaluation)} />
 
       {champions.length > 0 && (
         <section
