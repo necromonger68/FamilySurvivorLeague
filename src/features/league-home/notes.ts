@@ -136,10 +136,36 @@ const WEEK_11_PICKS: LeagueNote = {
     'Your week 11 pick locked at 7:10 PM Thursday, so it’s out of your hands now. Next week is different: the week 12 lock is 6:55 PM Wednesday, the night before Thanksgiving. Text me your pick before then, and a missed pick still costs a life.',
 }
 
+/**
+ * Week 12: the week 11 recap plus what Thanksgiving week holds. Posts early,
+ * once every week 11 pick has a result, since nobody picked the Sunday and
+ * Monday night games. Scores and records checked against the ESPN scoreboard;
+ * it names no week 12 picks.
+ */
+const WEEK_12: LeagueNote = {
+  heading: 'Word from the commissioner',
+  postEarly: true,
+  lines: [
+    'Week 11 is in the books, and the crow has his second customer. Ten of you won. One of you is out. The crow has pulled up a second chair next to Eden’s.',
+    'Tzvi, on his last life, took the Steelers at Philadelphia. The Eagles had lost seven straight. The Steelers hadn’t won in Philadelphia since 1965. Guess which streak ended. The Eagles won 19–16, and Tzvi is out of the league. And the Giants, the team that cost him a life the week before? They beat Jacksonville 23–18, on a week nobody had them. Tzvi, the football gods have a sense of humor, and this week it was at your expense. Eden, my own daughter, would like to welcome you to the sidelines. She’s saved you a seat. Robin, your husband is out and you still have two lives, so the Thanksgiving seating chart is your problem now.',
+    'Now the good news. Eyal made the first Bears pick of the season, on his birthday, with his last life, and the Bears beat the Saints 21–13. They’re 8–2. So “don’t pick the Bears” was a superstition after all, and Eyal broke it. Happy belated birthday, Eyal. The whole family rooted for you. You owe us one. We know you won’t pay it back.',
+    'And Sunday was Michele’s birthday, so two siblings had birthdays in the same week, and both won. Michele’s present was the Broncos beating the Raiders 38–24, so Michele, Jordan, Aaron and your commissioner all move on. Aaron rejoined the family plan for one week and it worked, which suggests the family plan works best when Aaron is on it. Happy birthday, Michele.',
+    'Steve hid his pick so nobody could copy him, and the Chiefs crushed Arizona 34–7. Orit’s 🏹 hit the target too. Score: Sagittarius 1, rest of the family still confused.',
+    'Karin and Robin’s Bills beat Miami 26–9. Buffalo is 9–1, and Karin is now five for five. Eli’s Panthers held on to beat Baltimore 35–33, which is a lot closer than anyone should have to watch with a backup pick. Zoey watched the whole thing through her paws.',
+    'The official count: one eliminated, ten still alive. Four are on their last life: me, Orit, Eyal and Aaron. Six still have two: Karin, Steve, Michele, Jordan, Eli and Robin. On the sidelines: Eden and Tzvi.',
+    'Week 12 is Thanksgiving week, and the NFL is serving football all week long. It starts Wednesday night with Green Bay at the Rams, which is why the lock is Wednesday at 6:55 PM. On Thanksgiving itself, the 8–2 Bears play at the 8–2 Lions at noon, the Eagles visit Dallas at 3:30, and the 8–2 Chiefs play at the 9–1 Bills at night. On Friday, Denver plays at Pittsburgh at 2:00. There are no byes this week, so every team is on the table, except the ones you’ve already used.',
+    'Eyal has used his Bears. The other nine of you haven’t. Bears at Lions on Thanksgiving, 8–2 against 8–2. If you pick the Bears and they lose, you’ll find out in front of the whole family, somewhere between the turkey and the pie.',
+    'One more time, because it matters: the lock is Wednesday at 6:55 PM, not Thursday. Between travel, cooking and family, I can’t promise anyone a nudge. Text me before you start the pie.',
+  ],
+  callout:
+    'Text me your week 12 pick before 6:55 PM Wednesday, five minutes before Green Bay at the Rams kicks off. That’s a day early because of Thanksgiving. Reminders are not guaranteed, and a missed pick costs a life.',
+}
+
 export const NOTES: Record<number, LeagueNote> = {
   7: WEEK_7_PICKS,
   8: WEEK_8_PICKS,
   9: WEEK_9_PICKS,
   10: WEEK_10_PICKS,
   11: WEEK_11_PICKS,
+  12: WEEK_12,
 }
