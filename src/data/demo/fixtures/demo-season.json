@@ -424,6 +424,19 @@
       "source": "commissioner"
     },
     {
+      "id": "pick-karin-israel-12",
+      "leagueId": "demo-league",
+      "seasonId": "demo-2026",
+      "playerId": "karin-israel",
+      "week": 12,
+      "teamId": "HOU",
+      "gameId": "2026-w12-BAL-at-HOU",
+      "submittedAt": "2026-11-23T23:46:00.000Z",
+      "updatedAt": "2026-11-23T23:46:00.000Z",
+      "version": 1,
+      "source": "commissioner"
+    },
+    {
       "id": "pick-maya-israel-7",
       "leagueId": "demo-league",
       "seasonId": "demo-2026",
@@ -485,6 +498,19 @@
       "gameId": "2026-w11-LV-at-DEN",
       "submittedAt": "2026-11-17T04:07:00.000Z",
       "updatedAt": "2026-11-17T04:07:00.000Z",
+      "version": 1,
+      "source": "commissioner"
+    },
+    {
+      "id": "pick-maya-israel-12",
+      "leagueId": "demo-league",
+      "seasonId": "demo-2026",
+      "playerId": "maya-israel",
+      "week": 12,
+      "teamId": "DAL",
+      "gameId": "2026-w12-PHI-at-DAL",
+      "submittedAt": "2026-11-23T23:46:00.000Z",
+      "updatedAt": "2026-11-23T23:46:00.000Z",
       "version": 1,
       "source": "commissioner"
     },
@@ -615,6 +641,19 @@
       "gameId": "2026-w11-NO-at-CHI",
       "submittedAt": "2026-11-19T20:43:00.000Z",
       "updatedAt": "2026-11-19T20:43:00.000Z",
+      "version": 1,
+      "source": "commissioner"
+    },
+    {
+      "id": "pick-eyal-israel-12",
+      "leagueId": "demo-league",
+      "seasonId": "demo-2026",
+      "playerId": "eyal-israel",
+      "week": 12,
+      "teamId": "CIN",
+      "gameId": "2026-w12-NO-at-CIN",
+      "submittedAt": "2026-11-24T23:45:00.000Z",
+      "updatedAt": "2026-11-24T23:45:00.000Z",
       "version": 1,
       "source": "commissioner"
     },
@@ -875,6 +914,19 @@
       "gameId": "2026-w11-LV-at-DEN",
       "submittedAt": "2026-11-19T20:57:00.000Z",
       "updatedAt": "2026-11-19T20:57:00.000Z",
+      "version": 1,
+      "source": "commissioner"
+    },
+    {
+      "id": "pick-michele-harkov-12",
+      "leagueId": "demo-league",
+      "seasonId": "demo-2026",
+      "playerId": "michele-harkov",
+      "week": 12,
+      "teamId": "JAX",
+      "gameId": "2026-w12-TEN-at-JAX",
+      "submittedAt": "2026-11-24T23:45:00.000Z",
+      "updatedAt": "2026-11-24T23:45:00.000Z",
       "version": 1,
       "source": "commissioner"
     },
